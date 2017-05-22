@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robot Learning</title>
+    <link>/</link>
+    <description>Recent content on Robot Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 May 2017 14:28:19 -0600</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>robots</title>
+      <link>/blog/robots/</link>
+      <pubDate>Sun, 21 May 2017 14:28:19 -0600</pubDate>
+      
+      <guid>/blog/robots/</guid>
+      <description>Robots can be complex. Complexity arises from the large dimensional states and inputs that a robot can have. The lack of a good model to map inputs to outputs and also to completing tasks. The Darpa Robotics Challenge(DRC) is an example of the hurdles in achieving human-like performance in robots.   Robots outperform humans in model based environments.   Achieving this precision in the real world riddled with model uncertainties requires exploration into machine learning.</description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>/contact/</link>
+      <pubDate>Sun, 21 May 2017 14:00:48 -0600</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>coming soon.</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>/about/</link>
+      <pubDate>Sun, 21 May 2017 14:00:43 -0600</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am a Robotics PhD candidate at the University of Utah advised by Dr. Tucker Hermans. I work at the LL4MA lab, where my research involves making robots with multi-fingered hands interact with objects (in-hand manipulation or dexterous manipulation). My robot buddies are the KUKA LBR4 robot and the Allegro Hand. More information here.</description>
+    </item>
+    
+  </channel>
+</rss>
