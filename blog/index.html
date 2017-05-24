@@ -40,7 +40,7 @@
 
 
     
-    <link rel="stylesheet" href="/css/light-style.css?t=1495475597">
+    <link rel="stylesheet" href="/css/light-style.css?t=1495653395">
     
 
 
@@ -68,12 +68,12 @@
 
 <div class="section" id="top">
 
-    <div class="container hero  fade-in one ">
+    <div class="container hero ">
     <h1 class="bold-title is-1">Balakumar's Blog</h1>
     </div>
 
     
-    <div class="section no-padding  fade-in two ">
+    <div class="section no-padding ">
 
     <div class="container">
     <hr>
@@ -109,12 +109,12 @@
     
     <h2 class="title is-2 top-pad">Latest Post</h2>
          
-        <div class="summary">May 21, 2017
-            <h3 class="title is-3 strong-post-title"><a href="/blog/robots/">robots</a></h3>
+        <div class="summary">May 24, 2017
+            <h3 class="title is-3 strong-post-title"><a href="/blog/policy-search/">Policy Search</a></h3>
                 <div class="markdown">
-                Robots can be complex. Complexity arises from the large dimensional states and inputs that a robot can have. The lack of a good model to map inputs to outputs and also to completing tasks. The Darpa Robotics Challenge(DRC) is an example of the hurdles in achieving human-like performance in robots.   Robots outperform humans in model based environments.   Achieving this precision in the real world riddled with model uncertainties requires exploration into machine learning.
+                Consider a robot with states $x$ and inputs $u$. A policy $\pi(x,u)$ can be used to obtain the next best action $u_{t}=\pi(u_t|x_t)$ that maximizes some long term expected reward $R(x,u)$. The subscript $t$ refers to the time-step. A feedback controller also allows for getting the best $u_{t}$. The policy can also get the next state given the current state and the input $x_{t+1}=\pi(x_{t+1}|x_t,u_{t})$. This is unique to a policy and cannot be obtained from a feedback controller.
                 
-                <a href="/blog/robots/">...Read More</a>
+                <a href="/blog/policy-search/">...Read More</a>
                 
                 </div>
         </div>
@@ -126,7 +126,7 @@
         
             
                 <li class="post-item">
-    <span><a href="/blog/robots/">robots</a></span> - <span>May 21, 2017</span>
+    <span><a href="/blog/policy-search/">Policy Search</a></span> - <span>May 24, 2017</span>
 </li>
             
         
@@ -147,6 +147,17 @@
         
     </div>
 </div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 </div>
 </div>
 
