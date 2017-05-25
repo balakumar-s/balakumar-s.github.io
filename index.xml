@@ -6,19 +6,10 @@
     <description>Recent content on Robot Learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 May 2017 11:18:16 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 21 May 2017 14:00:48 -0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Policy Search</title>
-      <link>/blog/policy-search/</link>
-      <pubDate>Wed, 24 May 2017 11:18:16 -0600</pubDate>
-      
-      <guid>/blog/policy-search/</guid>
-      <description>Consider a robot with states $x$ and inputs $u$. A policy $\pi(x,u)$ can be used to obtain the next best action $u_{t}=\pi(u_t|x_t)$ that maximizes some long term expected reward $R(x,u)$. The subscript $t$ refers to the time-step. A feedback controller also allows for getting the best $u_{t}$. The policy can also get the next state given the current state and the input $x_{t+1}=\pi(x_{t+1}|x_t,u_{t})$. This is unique to a policy and cannot be obtained from a feedback controller.</description>
-    </item>
     
     <item>
       <title>contact</title>
