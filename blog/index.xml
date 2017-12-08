@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Robot Learning</title>
+    <title>Blogs on Robotics</title>
     <link>/blog/</link>
-    <description>Recent content in Blogs on Robot Learning</description>
+    <description>Recent content in Blogs on Robotics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 May 2017 14:28:19 -0600</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>robots</title>
-      <link>/blog/robots/</link>
-      <pubDate>Sun, 21 May 2017 14:28:19 -0600</pubDate>
-      
-      <guid>/blog/robots/</guid>
-      <description>Robots can be complex. Complexity arises from the large dimensional states and inputs that a robot can have. The lack of a good model to map inputs to outputs and also to completing tasks. The Darpa Robotics Challenge(DRC) is an example of the hurdles in achieving human-like performance in robots.   Robots outperform humans in model based environments.   Achieving this precision in the real world riddled with model uncertainties requires exploration into machine learning.</description>
-    </item>
-    
-    <item>
-      <title>Robot control</title>
-      <link>/blog/robot-control/</link>
+      <title>Trajectory tracking controller for manipulators</title>
+      <link>/blog/trajectory-tracking-controller-for-manipulators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blog/robot-control/</guid>
-      <description>hi</description>
+      <guid>/blog/trajectory-tracking-controller-for-manipulators/</guid>
+      <description>TODO</description>
     </item>
     
   </channel>
