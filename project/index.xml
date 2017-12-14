@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Balakumar Sundaralingam</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Balakumar Sundaralingam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Balakumar Sundaralingam</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dexterous Manipulation</title>
+      <link>/project/dexterous_manipulation/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/dexterous_manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Mapping using only laser range finder on Mobile Robot</title>
+      <link>/project/mobile_robot_mapping/</link>
+      <pubDate>Sat, 27 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/project/mobile_robot_mapping/</guid>
+      <description>&lt;p&gt;The scope of my Bachelors thesis work was to examine the alternatives to using wheel encoders, which can still remain equivalent to the existing mapping procedures in terms of accuracy and computational efforts.&lt;/p&gt;
+
+&lt;p&gt;Objective:&lt;/p&gt;
+
+&lt;p&gt;The main objective of this project was to generate odometric readings from LRF data and remove the usage of wheel encoders(which tend to be error prone) for odometry.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
