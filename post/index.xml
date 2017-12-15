@@ -7,48 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Balakumar Sundaralingam</copyright>
-    <lastBuildDate>Sun, 01 May 2016 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0600</lastBuildDate>
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Hybrid/Parallel Force/Position Controllers</title>
-      <link>/post/force_position_control/</link>
-      <pubDate>Sun, 01 May 2016 00:00:00 -0600</pubDate>
-      
-      <guid>/post/force_position_control/</guid>
-      <description>
-
-&lt;h2 id=&#34;hybrid-controllers&#34;&gt;Hybrid controllers:&lt;/h2&gt;
-
-&lt;p&gt;Hybrid and Parallel force/Position controllers was implemented on a two-link manipulator with strain gauges for force sensing. Effect of friction on the controllers was tested with different surfaces.
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/W4jrnlV-JEM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile robot simulation in Gazebo</title>
-      <link>/post/mobile_robot_simulation/</link>
-      <pubDate>Sun, 01 May 2016 00:00:00 -0600</pubDate>
-      
-      <guid>/post/mobile_robot_simulation/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/balakumar-s/p3atGazeboRos&#34; target=&#34;_blank&#34;&gt;Git repo&lt;/a&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/z9PzmQjPOmY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/0TZ5NcKv7ZA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Local Reactive Collision Avoidance for holonomic mobile robots</title>
@@ -83,16 +43,6 @@
   &lt;iframe src=&#34;//www.youtube.com/embed/Z53nglbssII&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
-</description>
-    </item>
-    
-    <item>
-      <title>Using Push locations to Classify and predict Object Dynamics</title>
-      <link>/post/ml_proj/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
-      
-      <guid>/post/ml_proj/</guid>
-      <description>&lt;p&gt;The goal of this project was to build a classifier to predict the next state of an object given the current state and the input using linear classifiers such as SVM, AMP(Aggressive Margin Perceptron). The object&amp;rsquo;s pose was tracked using BLORT and the input was a point contact which was tracked using BLOB tracking with pointcloud data from a kinect, a dataset was collected for different contact points on the object.&lt;/p&gt;
 </description>
     </item>
     

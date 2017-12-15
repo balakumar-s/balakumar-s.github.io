@@ -59,24 +59,6 @@
     
     <url>
     
-      <loc>/post/force_position_control/</loc>
-      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/mobile_robot_simulation/</loc>
-      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/project/dexterous_manipulation/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
@@ -87,15 +69,6 @@
     <url>
     
       <loc>/post/collision_avoidance/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/ml_proj/</loc>
       <lastmod>2017-09-03T00:00:00-06:00</lastmod>
     </url>
     
@@ -143,7 +116,7 @@
     <url>
     
       <loc>/tags/class-project/</loc>
-      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
+      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -154,16 +127,6 @@
     
       <loc>/tags/collision-avoidance/</loc>
       <lastmod>2017-09-03T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/controller/</loc>
-      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -202,26 +165,6 @@
     
     <url>
     
-      <loc>/tags/gazebo/</loc>
-      <lastmod>2013-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/gazebo/</loc>
-      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/grasp-planning/</loc>
       <lastmod>2017-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -232,8 +175,8 @@
     
     <url>
     
-      <loc>/tags/machine-learning/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+      <loc>/tags/matlab/</loc>
+      <lastmod>2013-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -243,7 +186,7 @@
     <url>
     
       <loc>/tags/mobile-robot/</loc>
-      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
+      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -262,18 +205,8 @@
     
     <url>
     
-      <loc>/tags/opencv/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/post/</loc>
-      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
+      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -302,18 +235,8 @@
     
     <url>
     
-      <loc>/tags/quadrotor/</loc>
-      <lastmod>2013-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/ros/</loc>
-      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
+      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -323,17 +246,7 @@
     <url>
     
       <loc>/tags/slam/</loc>
-      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/simulink/</loc>
-      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
+      <lastmod>2013-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -354,16 +267,6 @@
     
       <loc>/tags/trajectory-optimization/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/v-rep/</loc>
-      <lastmod>2013-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
