@@ -64,7 +64,7 @@
   <meta property="og:site_name" content="Balakumar Sundaralingam">
   <meta property="og:url" content="/project/mobile_robot_mapping/">
   <meta property="og:title" content=" Mapping using only laser range finder on Mobile Robot | Balakumar Sundaralingam">
-  <meta property="og:description" content=""><meta property="og:image" content="/img/headers/bubbles-wide.jpg">
+  <meta property="og:description" content=""><meta property="og:image" content="/img/ug_thesis/map_tile.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2013-04-27T00:00:00&#43;00:00">
@@ -154,23 +154,6 @@
 
         
         
-
-        
-
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#posts">
-            
-            <span>Implementation</span>
-            
-          </a>
-        </li>
-
-        
-        
       
 
       
@@ -185,8 +168,8 @@
 
   
 <div class="article-header">
-  <img src="/img/headers/bubbles-wide.jpg" class="article-banner" itemprop="image">
-  <span class="article-header-caption">My caption 😄</span>
+  <img src="/img/ug_thesis/map_tile.png" class="article-banner" itemprop="image">
+  <span class="article-header-caption">Left: Map generated using wheel encoder odometry, Middle: Map generated using EKF on wheel encoders for odometry, Right: Map generated using our scan matching for odometry</span>
 </div>
 
 
@@ -244,11 +227,90 @@
     
 
     <div class="article-style" itemprop="articleBody">
-      <p>The scope of my Bachelors thesis work was to examine the alternatives to using wheel encoders, which can still remain equivalent to the existing mapping procedures in terms of accuracy and computational efforts.</p>
+      
 
-<p>Objective:</p>
+<h4 id="contributors">Contributors:</h4>
 
-<p>The main objective of this project was to generate odometric readings from LRF data and remove the usage of wheel encoders(which tend to be error prone) for odometry.</p>
+<p>Balakumar Sundaralingam, Sudarsan Balaji, Yaswanth Kodavali.</p>
+
+<h4 id="advisor">Advisor:</h4>
+
+<p>Prof. Prem S.</p>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Mobile robots employ wheel encoders to generate odometric readings. But the odometric readings from the wheel encoders of the mobile robots are generally erroneous, even in indoor environments. Without proper guiding tools like GPS, it is very hard to localise the robot in each consecutive scan for mapping. To overcome this disadvantage, a generic approach to formulate an error function using wheel encoder readings is followed. This error model could be used in algorithms like EKF, Regression Analysis or Least-Squared Error Reduction, to get a more accurate localisation. This is followed by mapping, necessitating the use of high quality wheel
+encoders in the mobile robot for localisation.</p>
+
+<p>This project aims at eliminating the requirement of such high quality wheel encoders for mapping an indoor environment. This task is achieved with scan data taken at discrete intervals, using line-based or point-based Plot Matching techniques, without the aid of odometric data from the wheel encoders. Currently, mapping of indoor environment has been done using the scan data obtained from the mobile platform. The scan data is used in
+a post-processing algorithm which provides promising results. This encourages a better future by completely eliminating the need for wheel encoders, thereby reducing the cost of production, and also the corresponding computational efforts. This project was part of my undergraduate thesis, advised by Prof. Prem .S.</p>
+
+<h2 id="problem-definition-and-data-collection">Problem Definition and Data Collection</h2>
+
+<p>We define the problem as computing the transformation between consecutive laser scans to enable mapping of the environment. Laser scan data was collected using the Pionerr 3AT robot equipped with a SICK LMS laser range finder. The wheel encoder data is also recorded. The robot is run in &ldquo;Wander mode&rdquo; until it covers all areas of the environment.
+<figure>
+  <img src="/img/ug_thesis/data_ac.png" style="height:200px;">
+</figure></p>
+
+<h2 id="approach">Approach</h2>
+
+<p>The laser scan data is converted into the polar coordinates which consists of an angle $\Theta$ and a distance from the sensor $d$. The polar scan matching method brute forces a minimum distane
+<figure>
+  <img src="/img/ug_thesis/psm.png" style="height:500px;">
+  <figcaption> Polar Scan Matching </a></figcaption>
+</figure>
+The orientation has a fixed range~$[0,2\pi]$. The translation distance however is infinitely large. We reduce the translation enumeration by matching the centroids between consecutive scans. When computing the centroid, outliers are removed by thresholding the distance as the outliers are usually data from new exploration.
+<figure>
+  <img src="/img/ug_thesis/centroid_1.png" style="height:250px;">
+  <figcaption> Approximate Centroid Fixing:The green dot shows the position of the
+centroid of the detected convex hull of the completed polygon drawn in green. Note that
+two similar scans get dissimilar polygons and centroids due to the detection of some new
+points in the second scan. Also note that this does not affect the position of the centroid
+too much.</a></figcaption>
+</figure>
+With polar scan matching, we can thus find homogenous transformations between consecutive scans. This can effectively replace wheel encoders for robot odometry. We then superimpose laser scan data from our collected data with transformations from our approach. This allows us to generate accurate 2D maps of the environment.
+<figure>
+  <img src="/img/ug_thesis/ekf_map2.png" style="height:450px;">
+  <img src="/img/ug_thesis/cm_map2.png" style="height:250px;">
+  <figcaption> Map of the mobile robot lab  generated using odometry from EKF on wheel encoders </a></figcaption>
+</figure>
+<figure>
+<p style="text-align:center;">
+<img src="/img/ug_thesis/ekf_map1.png" style="display:inline-block; width:250px;">
+<img src="/img/ug_thesis/cm_map1.png" style="display:inline-block;  width:250px;">
+<figcaption> A second room with three partitions was also explored</a></figcaption>
+</p>
+</figure></p>
+
+<h1 id="line-extraction">Line extraction</h1>
+
+<p>As part of this project,  a line extraction method was formulated to generate lines from laser scan data which is made of points.
+<figure>
+  <img src="/img/ug_thesis/sam_approach.png" style="height:250px;">
+  <figcaption> Split and Merge Algorithm </a></figcaption>
+</figure>
+<figure>
+  <img src="/img/ug_thesis/sam_plot.png" style="height:250px;">
+  <figcaption> Split and Merge on Laser Scan data </a></figcaption>
+</figure>
+Split and Merge generates lines with no knowledge of clusters as seen in Fig.2. Nearest neighbor clustering was used to generate clustered lines.
+<figure>
+  <img src="/img/ug_thesis/cluster.png" style="height:250px;">
+  <figcaption> Clustered points are shown in different colors.</a></figcaption>
+</figure>
+<figure>
+  <img src="/img/ug_thesis/sam_cluster.png" style="height:250px;">
+  <figcaption> Split and Merge on Clustered Laser Scan data shows better lines </a></figcaption>
+</figure>
+The lines obtained from clustered data produces broken lines. An additional step to line extraction which concatenates lines together based on their slope. The complete line extraction method is given below
+<figure>
+  <img src="/img/ug_thesis/line_extraction_chart.png" style="height:700px;">
+  <figcaption> Improved Line extraction with concatenation of lines based on slope. </a></figcaption>
+</figure>
+<figure>
+  <img src="/img/ug_thesis/improved_line.png" style="height:250px;">
+  <figcaption> Improved Line extraction with concatenation of lines based on slope. </a></figcaption>
+</figure></p>
 
     </div>
 
@@ -386,6 +448,13 @@
       <script>hljs.initHighlightingOnLoad();</script>
     
 
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 
