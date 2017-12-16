@@ -59,6 +59,15 @@
     
     <url>
     
+      <loc>/class_proj/ml_proj/</loc>
+      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/dexterous_manipulation/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
@@ -68,8 +77,26 @@
     
     <url>
     
-      <loc>/post/collision_avoidance/</loc>
+      <loc>/class_proj/collision_avoidance/</loc>
       <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/class_proj/optic_flow/</loc>
+      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/mobile_robot_simulation/</loc>
+      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -115,7 +142,7 @@
     
     <url>
     
-      <loc>/tags/class-project/</loc>
+      <loc>/class_proj/</loc>
       <lastmod>2017-09-03T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
@@ -146,7 +173,7 @@
     <url>
     
       <loc>/tags/dexterous-manipulation/</loc>
-      <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -156,7 +183,7 @@
     <url>
     
       <loc>/tags/gazebo/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -167,6 +194,16 @@
     
       <loc>/tags/grasp-planning/</loc>
       <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/machine-learning/</loc>
+      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -205,8 +242,18 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>/tags/opencv/</loc>
       <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/</loc>
+      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -246,7 +293,7 @@
     <url>
     
       <loc>/tags/slam/</loc>
-      <lastmod>2013-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -267,6 +314,16 @@
     
       <loc>/tags/trajectory-optimization/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/vrep/</loc>
+      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     

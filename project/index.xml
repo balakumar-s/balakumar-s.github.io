@@ -16,7 +16,11 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/dexterous_manipulation/</guid>
-      <description>&lt;p&gt;Environment interaction is more than picking and placing objects. Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Imagine a robot replacing a lightbulb or using a drill. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy. This project has two main research goals:&lt;/p&gt;
+      <description>
+
+&lt;h4 id=&#34;advisor-dr-tucker-hermans-https-www-cs-utah-edu-thermans&#34;&gt;Advisor: &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Dr. Tucker Hermans&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Environment interaction is more than picking and placing objects. Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Imagine a robot replacing a lightbulb or using a drill. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy. This project has two main research goals:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Exploring the limitations of qualitative physics based dexterous manipulation&lt;/li&gt;
@@ -49,9 +53,7 @@
 
 &lt;p&gt;Balakumar Sundaralingam, Sudarsan Balaji, Yaswanth Kodavali.&lt;/p&gt;
 
-&lt;h4 id=&#34;advisor&#34;&gt;Advisor:&lt;/h4&gt;
-
-&lt;p&gt;Prof. Prem S.&lt;/p&gt;
+&lt;h4 id=&#34;advisor-prof-prem-s&#34;&gt;Advisor: Prof. Prem S.&lt;/h4&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 

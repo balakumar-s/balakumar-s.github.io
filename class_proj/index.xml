@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Class_projs on Balakumar Sundaralingam</title>
+    <link>/class_proj/</link>
+    <description>Recent content in Class_projs on Balakumar Sundaralingam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Balakumar Sundaralingam</copyright>
+    <lastBuildDate>Thu, 01 Dec 2016 00:00:00 -0700</lastBuildDate>
+    <atom:link href="/class_proj/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using Push locations to Classify and predict Object Dynamics</title>
+      <link>/class_proj/ml_proj/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/class_proj/ml_proj/</guid>
+      <description>
+
+&lt;h4 id=&#34;contributors&#34;&gt;Contributors:&lt;/h4&gt;
+
+&lt;p&gt;Balakumar Sundaralingam, Vairavan Sivaraman.&lt;/p&gt;
+
+&lt;h1 id=&#34;introduction-motivation&#34;&gt;Introduction &amp;amp; Motivation&lt;/h1&gt;
+
+&lt;p&gt;Predicting an object’s next state without explicitly knowing the
+dynamics of the object is an interesting problem which would reduce the
+need for building a physical model of an object. This is even more
+important in the open world where an object’s dynamics is too complex to
+mathematically model. Instead of depending on mathematical models, the
+easier way would be to interact with the object at different contact
+points and build a classifier to predict the object’s next state. This
+idea is explored in this paper with experiments to analyze the
+feasibility.&lt;/p&gt;
+
+&lt;p&gt;Non-prehensile manipulation also called as graspless manipulation takes
+advantage of the mechanics of the task to achieve a goal state without
+grasping, thus simple mechanisms are used to achieve complex tasks.
+Pushing as shown is a non-prehensile
+manipulation primitive, where a point or a line contact pushes an object
+against the friction between the table and object surface. Tumbling is a
+pushing method in which the object is rotated about an axis around a
+plane. Pivoting is a method which requires a minimum of two contact points for effective execution. These
+are some motion primitives in the world of robot object
+interaction/manipulation of which pushing will be explored to classify
+the object motions.
+&lt;figure&gt;
+  &lt;img src=&#34;/img/course_proj/ml_push.png&#34; style=&#34;height:200px;&#34;&gt;
+  &lt;figcaption&gt;Robot Object interaction in its simplest form is a point contact from the robot pushing the object to a goal state by predicting the motion for a contact point&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;approach&#34;&gt;Approach&lt;/h1&gt;
+
+&lt;p&gt;The problem statement here is to predict the labels move and rotate,
+given a dataset of interactions with the object.&lt;/p&gt;
+
+&lt;h2 id=&#34;assumptions&#34;&gt;Assumptions&lt;/h2&gt;
+
+&lt;p&gt;The following assumptions are made about the problem.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The object is rigid.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The object has only two motion primitives- move and rotate. And it
+cannot have both the motions at the same time.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The contact point force is constant and acts normal to surface of
+the object.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The Object has uniform density,&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The table surface has an uniform friction coefficient.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;img src=&#34;/img/course_proj/ml_object_class.png&#34; style=&#34;height:200px;&#34;&gt;
+  &lt;figcaption&gt;The object with different motions based on contact point on the surface. Only one half face of the object is shown.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;initial-conception&#34;&gt;Initial Conception&lt;/h2&gt;
+
+&lt;p&gt;Initially, we attempted to classify a continuous system as in classify
+if the object is&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Moving only(Contact is at the centre of the object.)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Rotating only(Contact is at the edge of the object.)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Moving and Rotating.(Contact is anywhere between the centre and edge
+of the object.)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+&lt;caption&gt;Accuracy of Prediction for coupled motions.&lt;span label=&#34;table:both&#34;&gt;&lt;/span&gt;&lt;/caption&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;th align=&#34;center&#34; &gt;Feature Space&lt;/th&gt;
+&lt;th align=&#34;center&#34; colspan=&#34;2&#34;&gt;Move &amp; Rotate Label Accuracy&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;K-NN(K=9)&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;A-M-Perceptron&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;th align=&#34;center&#34;&gt;Contact Point&lt;/th&gt;
+&lt;td &gt;38.3%&lt;/td&gt;
+&lt;td &gt;36.5%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;th align=&#34;center&#34;&gt;Contact point &amp;amp; Object Pose&lt;/th&gt;
+&lt;td  &gt;48.5%&lt;/td&gt;
+&lt;td &gt;35.71%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;and the predictions for moving and rotating condition were bad as seen
+in Tab. [table:both] and this was reasoned to be because of learning
+the weight vector for moving and rotating independently and hence the
+lack of coupling between the two labels during the learning phase
+arises. So we focused the project on learning a classifier for moving
+and rotating independently and removed the motion which had both moving
+and rotating. The problem is even simpler now.&lt;/p&gt;
+
+&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
+
+&lt;p&gt;Given a dataset $S$ which has the following elements:$x,y,z$ -contact location of the point contact on the object,$\dot{X},\dot{Y},\dot{Z}$ - linear velocities of the object on perturbation, $\dot{\theta}_X$, $\dot{\theta}_Y$, $\dot{\theta}_Z$- angular velocity of the object on perturbation and labels Move,Rotate. This dataset is split in the ratio 8:2 and stored in S&lt;sub&gt;train&lt;/sub&gt; and S&lt;sub&gt;test&lt;/sub&gt; respectively. S&lt;sub&gt;train&lt;/sub&gt;  is the training data on which a classifier will be learnt and the prediction accuracy will be checked with S&lt;sub&gt;test&lt;/sub&gt;. The goal is to obtain a good classifier for the object.&lt;/p&gt;
+
+&lt;h2 id=&#34;algorithms-classifiers&#34;&gt;Algorithms/ Classifiers&lt;/h2&gt;
+
+&lt;p&gt;This problem is a multi label classifier and one way to learn a
+classifier is to learn the two labels separately and at prediction time,
+use the two learnt methods to predict each label and count success only
+when both the labels are predicted correctly. Two classifiers-
+Perceptron and Support Vector Machines are implemented to learn the
+motions. The aggressive margin version of the Perceptron classifier is
+used.&lt;/p&gt;
+
+&lt;h1 id=&#34;dataset&#34;&gt;Dataset&lt;/h1&gt;
+
+&lt;h2 id=&#34;data-collection&#34;&gt;Data Collection&lt;/h2&gt;
+
+&lt;p&gt;Data was generated from experiments due to unavailability of previous
+data. The experiment consist of pushing an object(a cuboid) with a
+marker and recording the change in pose of the object and also the
+contact point of the marker on the object. The pose of the object and
+marker is recorded as a time series(useful for velocity calculations).
+The Kinect sensor is used as the sensor for collecting the pose data.
+The marker pose is tracked by using simple blob tracking from OpenCV and
+getting the depth using the pointcloud obtained from Kinect. Tracking
+the object is complex and thus BLORT tracker. ROS was used as the framework for running the data
+collection code. The setup is shown below&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&#34;/img/course_proj/ml_data_collection.png&#34; style=&#34;height:200px;&#34;&gt;
+  &lt;figcaption&gt;The left image is a 2-d color image which is used by the Blort tracker to track the object and the marker is tracked using the right image which is a 3-D pointcloud. The three axes x,y and z are represesnted by blue,red and green lines respectively.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;data-processing&#34;&gt;Data Processing&lt;/h2&gt;
+
+&lt;p&gt;The training data needed to be labeled and two labels- Move and Rotate
+were used. Consider an symmetrical object such as a Cuboid. The object
+will only rotate when the object is pushed from the edge. The object
+will only move(translate) when the object is pushed at the center. We
+only assume that there is only two motions available to the object. The
+data set is manually labeled. The feature space is taken as the contact
+location(x,y,z) and also the object’s
+velocity($\dot{X},\dot{Y},\dot{Z}$,$\dot{\theta}_X,\dot{\theta}_Y,\dot{\theta}_Z$).
+2000 samples were taken in the dataset, of which 1600 are randomly taken
+as the training set and the remaining is the test set.&lt;/p&gt;
+
+&lt;h2 id=&#34;data-validation&#34;&gt;Data Validation&lt;/h2&gt;
+
+&lt;p&gt;As the data had to manually labeled, the experiments are run separately
+by first only having the contact point on the center and recording the
+move-only data and then experiments for rotate-only is performed by
+having the contact point on the edge.&lt;/p&gt;
+
+&lt;h1 id=&#34;feature-space-f-s&#34;&gt;Feature Space(F-S)&lt;/h1&gt;
+
+&lt;p&gt;The basic features from data collection was insufficient to learn a good classifier. So
+to try to improve the accuracy and also to explore how the feature space
+affects the classification/Prediction accuracy, a number of feature
+transformations are applied to the dataset. The feature transformations
+are only done with object data and the contact point data is not
+modified. The transformations on the object data are based on different
+norms. A p-norm is calculated as follows:
+$$ ||\mathbf{x}||_p := \bigg( \sum_{i=1}^n \left| x_i \right| ^p \bigg) ^{1/p} $$
+where $x$ is a vector having n components. It can be seen from
+Eq. [eq:norm] that when p becomes $\infty$, the norm is the largest
+component of the vector. The object has two velocities-linear($l$) and
+angular($\omega$) and hence two norms are calculated for the object
+velocities. The norms are&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;1-norm of the object velocities($N_1^l$,$N_1^\omega$).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;2-norm of the object velocities($N_2^l$,$N_2^\omega$).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;$\infty$-norm of the object
+velocities($N^l_\infty$, $N_\infty^\omega$).&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With these norms calculated, the feature spaces tested are expanded as
+follows:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;$x,y,z,\dot{X},\dot{Y},\dot{Z},\dot{\theta}_X,\dot{\theta}_Y,\dot{\theta}_Z$&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;$\dot{X},\dot{Y},\dot{Z},\dot{\theta}_X,\dot{\theta}_Y,\dot{\theta}_Z$&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;$x,y,z,N_1^l,N_1^\omega$&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;$N_1^l,N_1^\omega$&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;$x,y,z,N_2^l,N_2^\omega$&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;$N_2^l,N_2^\omega$&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;$x,y,z,N_\infty^l,N_\infty^\omega$&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;${N_\infty}^l$,$N_\infty^\omega$&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;$x,y,z$&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With these 9 different feature spaces, the accuracies for each
+classifier is reported and the results are analyzed in the next section.&lt;/p&gt;
+
+&lt;h1 id=&#34;results&#34;&gt;Results&lt;/h1&gt;
+
+&lt;p&gt;The hyper parameters for aggressive margin perceptron(AMP) were
+calculated by 10 fold cross validation to be $\mu=1$ and similarly for
+support vector machine(SVM) to be $\rho=1,C=10$. The epoch length was
+chosen as 100. The result for all the different feature spaces are given
+in a table below, in which F-S numbers relate to the numbered
+feature spaces. It is clear that the highest
+accuracy is shown by svm for F-S 2 which does not have the contact point
+location as a feature.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;caption&gt;Predictions&lt;span label=&#34;tab:pred&#34;&gt;&lt;/span&gt;&lt;/caption&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;th style=&#34;text-align: center;&#34;&gt; F-S&lt;/th&gt;
+&lt;th style=&#34;text-align: center;&#34; colspan=&#34;2&#34;&gt;Margin-Rotate&lt;/th&gt;
+&lt;th style=&#34;text-align: center;&#34; colspan=&#34;2&#34;&gt;Margin-Move&lt;/th&gt;
+&lt;th style=&#34;text-align: center;&#34; colspan=&#34;2&#34;&gt;Accuracy%&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;th style=&#34;text-align: center;&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align: center;&#34;&gt;AMP&lt;/th&gt;
+&lt;th style=&#34;text-align: center;&#34;&gt;SVM&lt;/th&gt;
+&lt;th style=&#34;text-align: center;&#34;&gt;AMP&lt;/th&gt;
+&lt;th style=&#34;text-align: center;&#34;&gt;SVM&lt;/th&gt;
+&lt;th style=&#34;text-align: center;&#34;&gt;AMP&lt;/th&gt;
+&lt;th style=&#34;text-align: center;&#34;&gt;SVM&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;7.025e-5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;0.0036&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;6.99e-5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;0.0037&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;46.84&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;51.39&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1.34e-6&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;3.82e-8&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1.31e-6&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;3.99e-7&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;60.7&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;65.37&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;8.43e-05&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;0.0037&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;8.40e-5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;0.0036&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;40.5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;51.39&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;0.00065&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;2.89e-5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;0.00065&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;2.89e-5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;37.13&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;51.39&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;5.35e-6&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;0.0037&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;6.1e-6&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;0.0037&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;37.75&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;51.39&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;6&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1.74e-7&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1.86e-5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1.74e-7&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1.86e-5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;37.13&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;51.39&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;7&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1.012e-5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;0.0037&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1.01e-5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;0.0037&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;38.67&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;51.39&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;6.55e-6&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1.63e-5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;6.60e-6&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1.63e-5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;37.13&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;51.39&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;9&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1.91e-6&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;0.0037&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1.91e-6&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;0.0037&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;43.6&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;51.39&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;effect-of-contact-point&#34;&gt;Effect of Contact point&lt;/h2&gt;
+
+&lt;p&gt;The contact point has a negative impact in the results as seen in F-S 2
+where the contact point location is not considered and it the best
+possible accuracy in this project. While in rest of the feature spaces,
+the contact point is not having a considerable impact. When only the
+contact points were considered as in F-S 9, it resulted in a low
+accuracy.&lt;/p&gt;
+
+&lt;h2 id=&#34;analyzing-the-weight-vectors&#34;&gt;Analyzing the weight vectors&lt;/h2&gt;
+
+&lt;p&gt;Separate weight vectors were calculated for move and rotate, the
+magnitude of all the corresponding elements in both vectors were same
+but the sign of each corresponding element were opposite. So as an
+experiment, at the prediction state, only either one of the weights was
+tested and the accuracy resulted in the same as accounting for both the
+weights. This proves the case that the learning either of the motions is
+an inverse of the other as we did not account for both the motions
+combined.&lt;/p&gt;
+
+&lt;h2 id=&#34;inference-on-failures&#34;&gt;Inference on failures&lt;/h2&gt;
+
+&lt;p&gt;Classifying a linear dataset seems an easy classifying problem while
+these experiments prove otherwise. A number of factors could be the
+reason of which some prominent ones are listed.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The motions of the object is not purely linear- when the object is
+perturbed there will be vibrations due to the impulse force which
+will be recorded by the tracker and it might be very high compared
+to the normal motion.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The object motion might also be not purely rotating or purely moving
+at any instant and there might be noise.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The dataset might not be sufficient.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The force applied on the object may not be a contact force as the
+object was perturbed by a human and using a robot manipulator might
+produce better results.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;conclusion-future-work&#34;&gt;Conclusion &amp;amp; Future Work&lt;/h1&gt;
+
+&lt;p&gt;Although the problem is linearly classifiable, the learning algorithms
+are not able to learn it. Future work will be on expanding the feature
+space to forces and also look into using the pointcloud data without any
+tracking which would add a lot of dimensions to the problem and might
+also give a solution for coupling multiple motions such as move and
+rotate at the same time. Also including different motion primitives such
+as sliding, toppling and check if the states can be classified is an
+interesting future direction. Also of interest is including the velocity
+of the point contact and also the angle at which the contact hits the
+object, as the contact angle will cause an object to behave differently
+and it might also be non-linear. For a 2000 dataset, the accuracy of
+65.37% is a sufficient result.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Artificial Potential Field Collision Avoidance for holonomic mobile robots</title>
+      <link>/class_proj/collision_avoidance/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
+      
+      <guid>/class_proj/collision_avoidance/</guid>
+      <description>
+
+&lt;h4 id=&#34;contributors&#34;&gt;Contributors:&lt;/h4&gt;
+
+&lt;p&gt;Balakumar Sundaralingam, Rohith Prasad.&lt;/p&gt;
+
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;The use of tele-operated robots in search and rescue,
+environment monitoring and interstellar
+exploration has increased in the past years.
+Tele-operation of robots is a complex task. The operator not only has to
+focus on the task but also perform collision avoidance so that the robot
+does not collide with obstacles in the environment. The addition of an
+automatic collision avoidance system to the robot will ease the operator
+and allow the operator to focus more on the task. This idea is not
+entirely new, as it has been in use in medical telerobotics as virtual
+fixtures.&lt;/p&gt;
+
+&lt;p&gt;Collision avoidance for mobile robots can be applied to unmanned ground
+or air vehicles for disaster response, precision farming, space exploration, environmental control and
+monitoring. Collision avoidance methods are in two broad
+categories- path planning methods and methods for local collision
+avoidance. Path planning methods are used to find a path to the goal
+given a map. Path planning methods are not of much use in the absence of
+the knowledge of the environment. Local collision avoidance methods
+determine a collision free path between two close points in the
+environment. Most common approaches being vector field
+histogram, artificial potential field
+,curvature velocity methods and
+dynamic windows. Artificial potential fields is taken as the method to
+perform automatic collision avoidance for its ease of implementation.
+&lt;figure&gt;
+  &lt;img src=&#34;/img/course_proj/reactive_collision_avoidance.png&#34; style=&#34;height:200px;&#34;&gt;
+  &lt;figcaption&gt; The Unmanned ground vehicle(UGV) is tele-operated using a joystick.
+The red path is the user given path but the artificial potential field
+algorithm corrects the path and the corrected path is shown in
+green.
+&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;problem-definition&#34;&gt;Problem Definition&lt;/h1&gt;
+
+&lt;p&gt;Given an holonomic ground robot controlled by a human operator, the
+robot has to avoid obstacles in its path. The following assumptions are
+made pertaining to the problem:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The environment is made of simple obstacles.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There is at least one collision free path.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The robot at any instant only knows about its surroundings and does
+not know the global map.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;approach&#34;&gt;Approach&lt;/h1&gt;
+
+&lt;p&gt;The approach has two parts. First the artificial potential fields
+approach is discussed followed by the addition of user input to the
+system to get the robot to move along the user desired direction.&lt;/p&gt;
+
+&lt;h2 id=&#34;artificial-potential-field&#34;&gt;Artificial Potential Field&lt;/h2&gt;
+
+&lt;p&gt;The artificial potential fields method is taken and modified to perform local collision avoidance. The first modification done is to remove the goal attraction property. The
+readings from the local sensor cause forces to act on the robot. The
+forces from the sensor are inverted and scaled so that nearer objects
+cause more force.&lt;/p&gt;
+
+&lt;p&gt;Forces from Obstacles: $$force_{x_{i}}=\frac{1}{x_{i}}$$
+$$force_{y{i}}=\frac{1}{y_{i}}$$
+$$Force_{x}=\frac{\sum\limits_{i=0}^{n}force_{x_{i}}}{n}$$
+$$Force_{y}=\frac{\sum\limits_{i=0}^{n}force_{y_{i}}}{n}$$ where $x_{i}$
+and $y_{i}$ are the forces along x and y axes from the $i^{th}$ obstacle
+point. n is the total number of obstacles(in the case of a LIDAR, it is
+the number of non-zero points). $Force_{x}$ and $Force_{y}$ are the
+resultant force vector components along x and y axes.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&#34;/img/course_proj/mp_pfield.png&#34; style=&#34;height:200px;&#34;&gt;
+&lt;figcaption&gt;The red vector shows the force from one obstacle. In a similar way,
+forces from all the obstacles are inversed and summed.
+&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;user-input&#34;&gt;User input&lt;/h2&gt;
+
+&lt;p&gt;The user input has to be used in a way such that the operator feels at
+home, so being an holonomic robot, the additional degree of freedom(yaw)
+is not considered as an input to the approach. The directions are taken
+as the input instead. When no direction is given as user input, the
+approach takes the forward direction as the heading and the user can
+change the yaw to traverse the environment.&lt;/p&gt;
+
+&lt;p&gt;$$\theta=tan^{-1}(\frac{Force_{y}+user_{y}}{Force_{x}+user_{x}})$$&lt;/p&gt;
+
+&lt;p&gt;$$Velocity=\sqrt{(Force_{x}+user_{x})^{2}+(Force_{y}+user_{y})^{2}}$$
+where $user_{x}$ and $user_{y}$ are the x and y components of the
+tele-operator commands.&lt;/p&gt;
+
+&lt;h2 id=&#34;implementation-issues-and-challenges&#34;&gt;Implementation Issues and Challenges&lt;/h2&gt;
+
+&lt;p&gt;The LIDAR sensor used in our tests was a 360RPLIDAR which has a range of
+6 metres. When the entire 6 metres is used, the robot has a lot of
+oscillations and was very unresponsive due to very high forces. To make
+it more reactive, the effective radius of the potential field is reduced
+to 0.6 m. This makes the robot be
+more reactive and has very few oscillations.
+&lt;figure&gt;
+&lt;img src=&#34;/img/course_proj/mp_pfield_force.png&#34; style=&#34;height:200px;&#34;&gt;
+&lt;figcaption&gt; The blue dashed circle is the reduced radius for potential field. The
+blue obstacles only cause forces on the robot and not the entire
+environment.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;results-and-discussion&#34;&gt;Results and Discussion&lt;/h1&gt;
+
+&lt;h2 id=&#34;system-setup&#34;&gt;System Setup&lt;/h2&gt;
+
+&lt;p&gt;The system used for testing the approach is a linux computer with AMD
+FX8320 CPU and 8 GB of RAM. The robot has an on-board single board computer which is called ODROID-U3 which sends the LIDAR data back to the main computer . ROS is used as
+the framework for implementation of the approach. For simulations, VREP
+is used with different environments.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&#34;/img/course_proj/mp_robot.png&#34; style=&#34;height:200px;&#34;&gt;
+&lt;figcaption&gt; The robot is shown with mecanum wheels which allow the robot to be
+holonomic. The on-board computer is an Odroid-U3. A 360 RPLIDAR is also
+seen in the figure which is used to sense obstacles.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+ &lt;figure&gt;
+&lt;img src=&#34;/img/course_proj/mp_sw.png&#34; style=&#34;height:200px;&#34;&gt;
+&lt;figcaption&gt;The software architecture of the mobile robot shows how the robot
+motors are controlled and also the hierarchy of computations.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;img src=&#34;/img/course_proj/mp_exp_setup.png&#34; style=&#34;height:200px;&#34;&gt;
+&lt;figcaption&gt;The overall experimental setup consists of two computing blocks, one
+in the robot which sends LIDAR data to the ground station which then
+performs collision avoidance and sends motor commands back to the
+robot.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;test-environments&#34;&gt;Test environments&lt;/h2&gt;
+
+&lt;p&gt;The tests were performed in simulation and as well as in real world. For
+simulations, four environments were designed. The real world tests were performed in hallways
+and an office lobby. The submitted video has the collision avoidance
+system working and preventing collisions.
+&lt;figure&gt;
+&lt;img src=&#34;/img/course_proj/mp_sim_env.png&#34; style=&#34;height:200px;&#34;&gt;
+&lt;figcaption&gt;Two simulation environments are shown. the left environment is an
+indoor setup with small sharp edged obstacles and to the right is an
+outdoor environment which depicts a forest fire and the robot is used
+for search and rescue. The obstacles are smooth in this scene.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/TYOYem2gdg0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h2 id=&#34;analysis-of-results&#34;&gt;Analysis of Results&lt;/h2&gt;
+
+&lt;p&gt;The initial tests with no effective radius in place was not very
+promising and had a lot of oscillations. After creating an effective
+radius, it was seen that the robot was more responsive and avoided
+collisions in a better way. However, the robot had oscillations in tight
+spaces which is an inherent drawback in the artificial potential field
+method of collision avoidance. The reduction in effective radius allowed
+the robot to have a smooth path along hallways and stay away from
+obstacles. The use of yaw to steer the robot was easier than compared to
+giving user input in different directions. So the robot had a constant
+forward heading and the robot was navigated in the environment using the
+yaw. If the robot went close to an obstacle, the potential field
+algorithm kicked in and moved the robot away.&lt;/p&gt;
+
+&lt;h1 id=&#34;conclusion-and-future-work&#34;&gt;Conclusion and Future Work&lt;/h1&gt;
+
+&lt;p&gt;The results from the approach looks promising, especially the addition
+of user input in a way so that the tele-operator is not put into burden.
+There are drawbacks in the approach which are due to the artificial
+potential field method. The main goal of implementing a potential field
+system in a tele-operated robot proved successful. For future work, the
+magnitude of the user input will be included in the collision avoidance
+system. Also the use of a more robust collision avoidance approach such
+as vector polar histogram might be feasible.&lt;/p&gt;
+
+&lt;h3 id=&#34;vector-polar-histogram&#34;&gt;Vector Polar Histogram&lt;/h3&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Z53nglbssII&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Optic Flow based  Collision Avoidance for holonomic mobile robots</title>
+      <link>/class_proj/optic_flow/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
+      
+      <guid>/class_proj/optic_flow/</guid>
+      <description>
+
+&lt;h4 id=&#34;contributors&#34;&gt;Contributors:&lt;/h4&gt;
+
+&lt;p&gt;Balakumar Sundaralingam.&lt;/p&gt;
+
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;Optical flow is one of the many ways to detect motion in a video stream.
+Conversely it can be used to interact with the real 3d world. Exploring
+this possibility motivated me to see if optical flow from a single
+camera is good for collision avoidance. The base idea is to have the
+environment static and the camera moving. This is discussed in the below
+sections.&lt;/p&gt;
+
+&lt;h1 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h1&gt;
+
+&lt;p&gt;An holonomic ground robot which is equipped with a single camera facing
+in the forward direction should go forward and in the presence of
+obstacles, the robot should avoid collisions and continue forward. The
+collision avoidance must be done only using the on-board camera. The
+following assumptions are made pertaining to the problem:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The environment is fairly simple mainly made of
+non-textured surfaces.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The obstacles in the environment are highly textured.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The environment is static and the robot is the only moving object.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;approach&#34;&gt;Approach&lt;/h1&gt;
+
+&lt;p&gt;To avoid obstacles with only one camera, many methods are present but to
+keep it related to the topics taught in class, Optical flow is chosen.
+Optical flow is detects the direction of motion in a set of images. This
+is the case if the camera is static and there are dynamic objects in the
+scene. Conversely if the camera is dynamic and the environment is
+static, there will be flow vectors throughout the scene. Now in this
+case, we know that objects close to the camera will have a larger flow
+vector compared to objects far away. This can be seen in
+fig.1. This property is used to avoid obstacles.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&#34;/img/course_proj/cv_optic_flow.gif&#34; style=&#34;height:200px;&#34;&gt;
+&lt;figcaption&gt;The test here uses the optical flow method taught in class lectures
+and is a version of Lucas Kanade method of optical flow. The red points
+are flow vectors having magnitude greater than a threshold.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The optical flow approach used here is similar to Project 4. The
+difference being in computing only for pixels which are detected as
+features. Initially, I used the basic approach taught in project 4, but
+it was very slow as optical flow was being computed for every pixel. To
+make it real-time, the code should run at least at 20Hz. Optical flow
+will be faster if it is only used on extracted features. To do this, I
+had to implement a feature extraction algorithm. Due to lack of
+knowledge in feature extraction, I used an OpenCV function called
+“goodFeaturesToTrack” to detect features. Once the features were
+detected, the following equations are used:
+$$x_{derivative}=\frac{image_{1}(i-1,j)-image_{1}(i+1,j)}{2}$$
+$$y_{derivative}=\frac{image_{1}(i,j-1)-image_{1}(i,j+1)}{2}$$
+$$time_{derivative}=image_{1}(i,j)-image_{2}(i,j)$$ where $image_{1}$
+and $image_{2}$ are gaussian smoothed consequent frames.i,j are row and
+column position of the pixels. The above values are used to compute the
+flow vector using the below formula: $$v=-(A^{T}A)^{-1}A^{T}b$$ where A
+is a Nx2 matrix with columns as x and y derivatives of the chosen window
+size(NxN).b is a Nx1 matrix of time derivatives of the chosen window
+size.v is a 2x1 matrix having velocity components along x and y
+directions.&lt;/p&gt;
+
+&lt;p&gt;With the approach for computing optic flow in a set of images explained,
+the next step is to use this method to do collision avoidance.
+&lt;figure&gt;
+&lt;img src=&#34;/img/course_proj/cv_chart.png&#34; style=&#34;height:200px;&#34;&gt;
+&lt;figcaption&gt;The input from camera is split into left and right halves. Optical
+flow is used to compute the maximum vectors from each side and sent to a
+control algorithm which decides the robot motion based on the maximum
+vectors.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;The maximum vectors from left and right halves are checked with a
+threshold vector to check if any obstacle is close to the robot and if
+the robot is on a collision course. The robot motion is chosen by the
+logic seen in the below table. So the robot is in constant motion
+as it avoids obstacles. When both halves have velocity vectors greater
+than the threshold, the robot will halt, but when it halts, the vectors
+become zero and hence the robot keeps oscillating.&lt;/p&gt;
+
+&lt;p&gt;&lt;table&gt;
+&lt;caption&gt;Robot direction table&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Greater Than Threshold vector&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Robot direction of motion&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;None&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Forward&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Left half Maximum vector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Go right&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Right half Maximum vector&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Go Left&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Both halves’ Maximum vectors&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Stop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;implementation&#34;&gt;Implementation&lt;/h1&gt;
+
+&lt;p&gt;The robot has to perform computations in real-time and hence OpenCV
+libraries are used. To compute matrices for optical flow, the eigen
+library is used. The processing is all done on-board the robot in a ARM
+based single board computer called ODROID-U3. It runs a custom version
+of linux. The Robotics Operating System (ROS) is used as the
+framework for easy implementation. With all the optimizations done to
+the best of my knowledge, the optical flow algorithm ran at 50Hz.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&#34;/img/course_proj/cv_robot.png&#34; style=&#34;height:200px;&#34;&gt;
+&lt;figcaption&gt;The robot is equipped with a RGB color camera, on-board computer
+which takes the camera input and does optic flow and controls the
+motors. The mecannum wheels allow the robot to have holonomic
+capabilities and so the robot can move sideways.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&#34;results-and-discussion&#34;&gt;Results and Discussion&lt;/h1&gt;
+
+&lt;p&gt;The approach is tested in a long corridor with minimum textures.The
+robot was run in two different setups. The first run is in the presence of two obstacles and the robot
+moves left and right to avoid collision as seen below:
+&lt;figure&gt;
+&lt;img src=&#34;/img/course_proj/cv_res_1.png&#34; style=&#34;height:200px;&#34;&gt;
+&lt;figcaption&gt; The robot sees optic flow greater than the threshold in the right
+half of the camera as seen by blue vectors in the right half and so the
+robot moves to the left as shown by the red vector.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&#34;/img/course_proj/cv_res_2.png&#34; style=&#34;height:200px;&#34;&gt;
+&lt;figcaption&gt;The robot sees optic flow greater than the threshold in the left half
+of the camera as seen by blue vectors in the left half and so the robot
+moves to the right as shown by the red vector.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+ The next run is in the presence of an obstacle which is in both halves. This case would make the robot halt and oscillate as optic flow is computed only when the robot is in motion as seen below.
+&lt;figure&gt;
+&lt;img src=&#34;/img/course_proj/cv_res_3.png&#34; style=&#34;height:200px;&#34;&gt;
+&lt;figcaption&gt; The robot sees optic flow greater than the threshold in both the
+right half and left half of the camera as seen by blue vectors and so
+the robot stays in place but when is static, the flow vectors disappear
+and hence the robot oscillates, this can be seen in the submitted
+video.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&#34;code-and-video&#34;&gt;Code and Video&lt;/h1&gt;
+
+&lt;p&gt;The code is done in C++ with eigen and OpenCV libraries. The following
+inbuilt functions from OpenCV are used: goodFeaturesToTrack(to find
+features) and GaussianBlur (to blur the image for optical flow
+computation). No functions from OpenCV for Optical flow was used. The
+Optical flow code was done manually. The code compiles in Linux and
+requires ROS hydro or newer frameworks to work.&lt;/p&gt;
+
+&lt;h5 id=&#34;source-code-git-https-github-com-balakumar-s-opticflow-collision-avoidance-git&#34;&gt;Source Code:&lt;a href=&#34;https://github.com/balakumar-s/opticflow_collision_avoidance.git&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;In the video below, the stream from the on-board camera is lagging due to low
+bandwidth of the wireless network and is not related to the algorithm.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/MvWAp7sOZlA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Thus it is seen that optical flow can be used to do collision avoidance
+if there is enough texture in the obstacles. This can be expanded to use
+with cheap collision avoidance systems such as in toys.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
