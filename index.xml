@@ -29,22 +29,31 @@
     </item>
     
     <item>
-      <title>contact</title>
-      <link>/contact/</link>
-      <pubDate>Sun, 21 May 2017 14:00:48 -0600</pubDate>
+      <title>Dexterous Manipulation</title>
+      <link>/project/dexterous_manipulation/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/contact/</guid>
-      <description>&lt;p&gt;coming soon.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>/about/</link>
-      <pubDate>Sun, 21 May 2017 14:00:43 -0600</pubDate>
-      
-      <guid>/about/</guid>
-      <description>&lt;p&gt;I am a Robotics PhD candidate at the University of Utah. More information &lt;a href=&#34;https://sites.google.com/site/balakumarprofile/home&#34; target=&#34;_blank&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+      <guid>/project/dexterous_manipulation/</guid>
+      <description>
+
+&lt;h4 id=&#34;advisor-dr-tucker-hermans-https-www-cs-utah-edu-thermans&#34;&gt;Advisor: &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Dr. Tucker Hermans&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Imagine a robot replacing a lightbulb or using a drill. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy. This project focuses on performing dexterous manipulation with minimal information about the object. This project has two main research goals:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Exploring and analyzing qualitative physics based dexterous manipulation.&lt;/li&gt;
+&lt;li&gt;Incorporating learning methods to overcome these limitations.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I am actively exploring this research problem at the &lt;a href=&#34;https://robot-learning.cs.utah.edu/&#34; target=&#34;_blank&#34;&gt;LL4MA lab&lt;/a&gt;, advised by &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Dr. Tucker Hermans&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As part of the first goal, we explored performing in-grasp manipulation with a multi-fingered robotic hand. In-grasp manipulation as the problem of moving an object with reference to the palm from an initial pose to a goal pose without breaking or making contacts. We formulated a trajectory optimization problem with cost terms to perform in-grasp manipulation with constraints on the robot&amp;rsquo;s joint limits. The cost terms attempt to move the object to the desired pose while trying to maintain the initial grasp. Our approach being purely kinematic allowed for performing in-grasp manipulation of novel objects.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Gn-yMRjbmPE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 </description>
     </item>
     
@@ -437,37 +446,6 @@ of the point contact and also the angle at which the contact hits the
 object, as the contact angle will cause an object to behave differently
 and it might also be non-linear. For a 2000 dataset, the accuracy of
 65.37% is a sufficient result.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Dexterous Manipulation</title>
-      <link>/project/dexterous_manipulation/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/dexterous_manipulation/</guid>
-      <description>
-
-&lt;h4 id=&#34;advisor-dr-tucker-hermans-https-www-cs-utah-edu-thermans&#34;&gt;Advisor: &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Dr. Tucker Hermans&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;Environment interaction is more than picking and placing objects. Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Imagine a robot replacing a lightbulb or using a drill. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy. This project has two main research goals:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Exploring the limitations of qualitative physics based dexterous manipulation&lt;/li&gt;
-&lt;li&gt;Using learning to overcome these limitations.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I am actively exploring this research problem at the &lt;a href=&#34;https://robot-learning.cs.utah.edu/&#34; target=&#34;_blank&#34;&gt;LL4MA lab&lt;/a&gt;, advised by &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Dr. Tucker Hermans&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;As part of the first goal, we explored performing in-grasp manipulation with a multi-fingered robotic hand. In-grasp manipulation as the problem of moving an object with reference to the palm from an initial pose to a goal pose without breaking or making contacts. We formulated a trajectory optimization problem with cost terms to perform in-grasp manipulation with constraints on the robot&amp;rsquo;s joint limits. The cost terms attempt to move the object to the desired pose while trying to maintain the initial grasp. Our approach being purely kinematic allowed for performing in-grasp manipulation of novel objects.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Gn-yMRjbmPE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;p&gt;.&lt;/p&gt;
 </description>
     </item>
     

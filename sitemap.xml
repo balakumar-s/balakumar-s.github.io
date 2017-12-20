@@ -23,25 +23,16 @@
     
     <url>
     
-      <loc>/contact/</loc>
-      <lastmod>2017-05-21T14:00:48-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/about/</loc>
-      <lastmod>2017-05-21T14:00:43-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/academic/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/dexterous_manipulation/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -60,16 +51,7 @@
     <url>
     
       <loc>/class_proj/ml_proj/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/dexterous_manipulation/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2016-12-01T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -78,7 +60,7 @@
     <url>
     
       <loc>/class_proj/collision_avoidance/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+      <lastmod>2015-05-01T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -87,7 +69,7 @@
     <url>
     
       <loc>/class_proj/optic_flow/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+      <lastmod>2015-05-01T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -143,7 +125,7 @@
     <url>
     
       <loc>/class_proj/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+      <lastmod>2016-12-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -153,7 +135,7 @@
     <url>
     
       <loc>/tags/collision-avoidance/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+      <lastmod>2015-05-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -173,7 +155,7 @@
     <url>
     
       <loc>/tags/dexterous-manipulation/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -203,7 +185,7 @@
     <url>
     
       <loc>/tags/machine-learning/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+      <lastmod>2016-12-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -223,7 +205,7 @@
     <url>
     
       <loc>/tags/mobile-robot/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+      <lastmod>2015-05-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -233,7 +215,7 @@
     <url>
     
       <loc>/tags/motion-planning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -243,7 +225,7 @@
     <url>
     
       <loc>/tags/opencv/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+      <lastmod>2016-12-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -263,7 +245,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -283,7 +265,7 @@
     <url>
     
       <loc>/tags/ros/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+      <lastmod>2016-12-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -313,7 +295,7 @@
     <url>
     
       <loc>/tags/trajectory-optimization/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -323,7 +305,7 @@
     <url>
     
       <loc>/tags/vrep/</loc>
-      <lastmod>2017-09-03T00:00:00-06:00</lastmod>
+      <lastmod>2015-05-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     

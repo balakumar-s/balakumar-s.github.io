@@ -7,24 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Balakumar Sundaralingam</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Dexterous Manipulation</title>
       <link>/project/dexterous_manipulation/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/dexterous_manipulation/</guid>
       <description>
 
 &lt;h4 id=&#34;advisor-dr-tucker-hermans-https-www-cs-utah-edu-thermans&#34;&gt;Advisor: &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Dr. Tucker Hermans&lt;/a&gt;&lt;/h4&gt;
 
-&lt;p&gt;Environment interaction is more than picking and placing objects. Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Imagine a robot replacing a lightbulb or using a drill. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy. This project has two main research goals:&lt;/p&gt;
+&lt;p&gt;Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Imagine a robot replacing a lightbulb or using a drill. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy. This project focuses on performing dexterous manipulation with minimal information about the object. This project has two main research goals:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Exploring the limitations of qualitative physics based dexterous manipulation&lt;/li&gt;
-&lt;li&gt;Using learning to overcome these limitations.&lt;/li&gt;
+&lt;li&gt;Exploring and analyzing qualitative physics based dexterous manipulation.&lt;/li&gt;
+&lt;li&gt;Incorporating learning methods to overcome these limitations.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;I am actively exploring this research problem at the &lt;a href=&#34;https://robot-learning.cs.utah.edu/&#34; target=&#34;_blank&#34;&gt;LL4MA lab&lt;/a&gt;, advised by &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Dr. Tucker Hermans&lt;/a&gt;.&lt;/p&gt;
@@ -36,8 +36,6 @@
   &lt;iframe src=&#34;//www.youtube.com/embed/Gn-yMRjbmPE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
-
-&lt;p&gt;.&lt;/p&gt;
 </description>
     </item>
     
