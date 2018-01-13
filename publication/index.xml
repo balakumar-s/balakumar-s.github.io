@@ -11,6 +11,15 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Geometric In-Hand Regrasp Planning: Alternating Optimization of Finger Gaits and In-Grasp Manipulation</title>
+      <link>/publication/regrasp_planning/</link>
+      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/regrasp_planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Planning Multi-Fingered Grasps as Probabilistic Inference in a Learned Deep Network</title>
       <link>/publication/grasp_inference/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
