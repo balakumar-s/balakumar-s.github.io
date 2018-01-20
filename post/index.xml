@@ -6,9 +6,11 @@
     <description>Recent content in Posts on Balakumar Sundaralingam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Balakumar Sundaralingam</copyright>
+    <copyright>&amp;copy; 2018 Balakumar Sundaralingam</copyright>
     <lastBuildDate>Sun, 01 Jun 2014 00:00:00 -0600</lastBuildDate>
-    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Mobile robot simulation in Gazebo</title>
@@ -16,20 +18,7 @@
       <pubDate>Sun, 01 Jun 2014 00:00:00 -0600</pubDate>
       
       <guid>/post/mobile_robot_simulation/</guid>
-      <description>&lt;p&gt;To get to speed with ROS and Gazebo, I created the Pioneer 3AT robot from mesh files. Learning about simulating the robot&amp;rsquo;s drive motors was interesting. This code is available in &lt;a href=&#34;https://github.com/balakumar-s/p3atGazeboRos&#34; target=&#34;_blank&#34;&gt;git&lt;/a&gt;. Here is a video of the simulation.
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/z9PzmQjPOmY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Out of curiosity, I also setup hector slam to generate a map of the environment.
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/0TZ5NcKv7ZA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/p&gt;
-</description>
+      <description>To get to speed with ROS and Gazebo, I created the Pioneer 3AT robot from mesh files. Learning about simulating the robot&amp;rsquo;s drive motors was interesting. This code is available in git. Here is a video of the simulation.   Out of curiosity, I also setup hector slam to generate a map of the environment.   </description>
     </item>
     
   </channel>

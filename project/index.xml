@@ -6,9 +6,11 @@
     <description>Recent content in Projects on Balakumar Sundaralingam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Balakumar Sundaralingam</copyright>
+    <copyright>&amp;copy; 2018 Balakumar Sundaralingam</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Dexterous Manipulation</title>
@@ -16,27 +18,7 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/dexterous_manipulation/</guid>
-      <description>
-
-&lt;h4 id=&#34;advisor-dr-tucker-hermans-https-www-cs-utah-edu-thermans&#34;&gt;Advisor: &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Dr. Tucker Hermans&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Imagine a robot replacing a lightbulb or using a drill. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy. This project focuses on performing dexterous manipulation with minimal information about the object. This project has two main research goals:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Exploring and analyzing qualitative physics based dexterous manipulation.&lt;/li&gt;
-&lt;li&gt;Incorporating learning methods to overcome these limitations.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I am actively exploring this research problem at the &lt;a href=&#34;https://robot-learning.cs.utah.edu/&#34; target=&#34;_blank&#34;&gt;LL4MA lab&lt;/a&gt;, advised by &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Dr. Tucker Hermans&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;As part of the first goal, we explored performing in-grasp manipulation with a multi-fingered robotic hand. In-grasp manipulation as the problem of moving an object with reference to the palm from an initial pose to a goal pose without breaking or making contacts. We formulated a trajectory optimization problem with cost terms to perform in-grasp manipulation with constraints on the robot&amp;rsquo;s joint limits. The cost terms attempt to move the object to the desired pose while trying to maintain the initial grasp. Our approach being purely kinematic allowed for performing in-grasp manipulation of novel objects.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Gn-yMRjbmPE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+      <description>Advisor: Dr. Tucker Hermans Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Imagine a robot replacing a lightbulb or using a drill. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy. This project focuses on performing dexterous manipulation with minimal information about the object.</description>
     </item>
     
     <item>
@@ -45,89 +27,8 @@
       <pubDate>Sat, 27 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>/project/mobile_robot_mapping/</guid>
-      <description>
-
-&lt;h4 id=&#34;contributors&#34;&gt;Contributors:&lt;/h4&gt;
-
-&lt;p&gt;Balakumar Sundaralingam, Sudarsan Balaji, Yaswanth Kodavali.&lt;/p&gt;
-
-&lt;h4 id=&#34;advisor-prof-prem-s&#34;&gt;Advisor: Prof. Prem S.&lt;/h4&gt;
-
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;Mobile robots employ wheel encoders to generate odometric readings. But the odometric readings from the wheel encoders of the mobile robots are generally erroneous, even in indoor environments. Without proper guiding tools like GPS, it is very hard to localise the robot in each consecutive scan for mapping. To overcome this disadvantage, a generic approach to formulate an error function using wheel encoder readings is followed. This error model could be used in algorithms like EKF, Regression Analysis or Least-Squared Error Reduction, to get a more accurate localisation. This is followed by mapping, necessitating the use of high quality wheel
-encoders in the mobile robot for localisation.&lt;/p&gt;
-
-&lt;p&gt;This project aims at eliminating the requirement of such high quality wheel encoders for mapping an indoor environment. This task is achieved with scan data taken at discrete intervals, using line-based or point-based Plot Matching techniques, without the aid of odometric data from the wheel encoders. Currently, mapping of indoor environment has been done using the scan data obtained from the mobile platform. The scan data is used in
-a post-processing algorithm which provides promising results. This encourages a better future by completely eliminating the need for wheel encoders, thereby reducing the cost of production, and also the corresponding computational efforts. This project was part of my undergraduate thesis, advised by Prof. Prem .S.&lt;/p&gt;
-
-&lt;h2 id=&#34;problem-definition-and-data-collection&#34;&gt;Problem Definition and Data Collection&lt;/h2&gt;
-
-&lt;p&gt;We define the problem as computing the transformation between consecutive laser scans to enable mapping of the environment. Laser scan data was collected using the Pionerr 3AT robot equipped with a SICK LMS laser range finder. The wheel encoder data is also recorded. The robot is run in &amp;ldquo;Wander mode&amp;rdquo; until it covers all areas of the environment.
-&lt;figure&gt;
-  &lt;img src=&#34;/img/ug_thesis/data_ac.png&#34; style=&#34;height:200px;&#34;&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;
-
-&lt;p&gt;The laser scan data is converted into the polar coordinates which consists of an angle $\Theta$ and a distance from the sensor $d$. The polar scan matching method brute forces a minimum distane
-&lt;figure&gt;
-  &lt;img src=&#34;/img/ug_thesis/psm.png&#34; style=&#34;height:500px;&#34;&gt;
-  &lt;figcaption&gt; Polar Scan Matching &lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-The orientation has a fixed range~$[0,2\pi]$. The translation distance however is infinitely large. We reduce the translation enumeration by matching the centroids between consecutive scans. When computing the centroid, outliers are removed by thresholding the distance as the outliers are usually data from new exploration.
-&lt;figure&gt;
-  &lt;img src=&#34;/img/ug_thesis/centroid_1.png&#34; style=&#34;height:250px;&#34;&gt;
-  &lt;figcaption&gt; Approximate Centroid Fixing:The green dot shows the position of the
-centroid of the detected convex hull of the completed polygon drawn in green. Note that
-two similar scans get dissimilar polygons and centroids due to the detection of some new
-points in the second scan. Also note that this does not affect the position of the centroid
-too much.&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-With polar scan matching, we can thus find homogenous transformations between consecutive scans. This can effectively replace wheel encoders for robot odometry. We then superimpose laser scan data from our collected data with transformations from our approach. This allows us to generate accurate 2D maps of the environment.
-&lt;figure&gt;
-  &lt;img src=&#34;/img/ug_thesis/ekf_map2.png&#34; style=&#34;height:450px;&#34;&gt;
-  &lt;img src=&#34;/img/ug_thesis/cm_map2.png&#34; style=&#34;height:250px;&#34;&gt;
-  &lt;figcaption&gt; Map of the mobile robot lab  generated using odometry from EKF on wheel encoders &lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-&lt;p style=&#34;text-align:center;&#34;&gt;
-&lt;img src=&#34;/img/ug_thesis/ekf_map1.png&#34; style=&#34;display:inline-block; width:250px;&#34;&gt;
-&lt;img src=&#34;/img/ug_thesis/cm_map1.png&#34; style=&#34;display:inline-block;  width:250px;&#34;&gt;
-&lt;figcaption&gt; A second room with three partitions was also explored&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/p&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;line-extraction&#34;&gt;Line extraction&lt;/h1&gt;
-
-&lt;p&gt;As part of this project,  a line extraction method was formulated to generate lines from laser scan data which is made of points.
-&lt;figure&gt;
-  &lt;img src=&#34;/img/ug_thesis/sam_approach.png&#34; style=&#34;height:250px;&#34;&gt;
-  &lt;figcaption&gt; Split and Merge Algorithm &lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;/img/ug_thesis/sam_plot.png&#34; style=&#34;height:250px;&#34;&gt;
-  &lt;figcaption&gt; Split and Merge on Laser Scan data &lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-Split and Merge generates lines with no knowledge of clusters as seen in Fig.2. Nearest neighbor clustering was used to generate clustered lines.
-&lt;figure&gt;
-  &lt;img src=&#34;/img/ug_thesis/cluster.png&#34; style=&#34;height:250px;&#34;&gt;
-  &lt;figcaption&gt; Clustered points are shown in different colors.&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;/img/ug_thesis/sam_cluster.png&#34; style=&#34;height:250px;&#34;&gt;
-  &lt;figcaption&gt; Split and Merge on Clustered Laser Scan data shows better lines &lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-The lines obtained from clustered data produces broken lines. An additional step to line extraction which concatenates lines together based on their slope. The complete line extraction method is given below
-&lt;figure&gt;
-  &lt;img src=&#34;/img/ug_thesis/line_extraction_chart.png&#34; style=&#34;height:700px;&#34;&gt;
-  &lt;figcaption&gt; Improved Line extraction with concatenation of lines based on slope. &lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;/img/ug_thesis/improved_line.png&#34; style=&#34;height:250px;&#34;&gt;
-  &lt;figcaption&gt; Improved Line extraction with concatenation of lines based on slope. &lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-</description>
+      <description>Contributors: Balakumar Sundaralingam, Sudarsan Balaji, Yaswanth Kodavali.
+Advisor: Prof. Prem S. Abstract Mobile robots employ wheel encoders to generate odometric readings. But the odometric readings from the wheel encoders of the mobile robots are generally erroneous, even in indoor environments. Without proper guiding tools like GPS, it is very hard to localise the robot in each consecutive scan for mapping. To overcome this disadvantage, a generic approach to formulate an error function using wheel encoder readings is followed.</description>
     </item>
     
   </channel>

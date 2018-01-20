@@ -6,7 +6,7 @@
     <description>Recent content in Balakumar Sundaralingam on Balakumar Sundaralingam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Balakumar Sundaralingam</copyright>
+    <copyright>&amp;copy; 2018 Balakumar Sundaralingam</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0600</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
@@ -16,6 +16,15 @@
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/regrasp_planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Relaxed-Rigidity Constraints: Kinematic Trajectory Optimization and Collision Avoidance for In-Grasp Manipulation</title>
+      <link>/publication/in_grasp_journal/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/in_grasp_journal/</guid>
       <description></description>
     </item>
     
