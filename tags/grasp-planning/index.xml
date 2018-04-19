@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grasp-planning on Balakumar Sundaralingam</title>
+    <link>/tags/grasp-planning/</link>
+    <description>Recent content in Grasp-planning on Balakumar Sundaralingam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Balakumar Sundaralingam</copyright>
+    <lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/grasp-planning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Planning Multi-Fingered Grasps as Probabilistic Inference in a Learned Deep Network</title>
+      <link>/publication/grasp_inference/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/grasp_inference/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
