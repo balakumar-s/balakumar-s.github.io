@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Balakumar Sundaralingam</title>
+    <link>/publication_types/1/</link>
+    <description>Recent content in 1 on Balakumar Sundaralingam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Balakumar Sundaralingam</copyright>
+    <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Geometric In-Hand Regrasp Planning: Alternating Optimization of Finger Gaits and In-Grasp Manipulation</title>
+      <link>/publication/regrasp_planning/</link>
+      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/regrasp_planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning Multi-Fingered Grasps as Probabilistic Inference in a Learned Deep Network</title>
+      <link>/publication/grasp_inference/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/grasp_inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Relaxed-Rigidity Constraints: In-Grasp Manipulation using Purely Kinematic Trajectory Optimization</title>
+      <link>/publication/in_grasp_manipulation/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/in_grasp_manipulation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

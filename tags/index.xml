@@ -1,14 +1,151 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Robotics</title>
+    <title>Tags on Balakumar Sundaralingam</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Robotics</description>
+    <description>Recent content in Tags on Balakumar Sundaralingam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2018 Balakumar Sundaralingam</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
+    </item>
+    
+    <item>
+      <title>Collision-avoidance</title>
+      <link>/tags/collision-avoidance/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
+      
+      <guid>/tags/collision-avoidance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep-learning</title>
+      <link>/tags/deep-learning/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dexterous-manipulation</title>
+      <link>/tags/dexterous-manipulation/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dexterous-manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gazebo</title>
+      <link>/tags/gazebo/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0600</pubDate>
+      
+      <guid>/tags/gazebo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grasp-planning</title>
+      <link>/tags/grasp-planning/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/grasp-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine-learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matlab</title>
+      <link>/tags/matlab/</link>
+      <pubDate>Sat, 27 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/matlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile-robot</title>
+      <link>/tags/mobile-robot/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
+      
+      <guid>/tags/mobile-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motion-planning</title>
+      <link>/tags/motion-planning/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/motion-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenCV</title>
+      <link>/tags/opencv/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/opencv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>/tags/ros/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/ros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SLAM</title>
+      <link>/tags/slam/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0600</pubDate>
+      
+      <guid>/tags/slam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trajectory-optimization</title>
+      <link>/tags/trajectory-optimization/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/trajectory-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VREP</title>
+      <link>/tags/vrep/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
+      
+      <guid>/tags/vrep/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

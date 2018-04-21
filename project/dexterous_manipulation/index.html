@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.36.1" />
+  <meta name="generator" content="Hugo 0.39" />
   <meta name="author" content="Balakumar Sundaralingam">
   <meta name="description" content="PhD Student, Utah Robotics Center">
 
@@ -162,6 +162,23 @@
         
 
         <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
           <a href="/#class_proj">
             
             <span>Course Projects</span>
@@ -265,20 +282,21 @@
 
 <h4 id="advisor-dr-tucker-hermans-https-www-cs-utah-edu-thermans">Advisor: <a href="https://www.cs.utah.edu/~thermans" target="_blank">Dr. Tucker Hermans</a></h4>
 
-<p>Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Consider a robot replacing a lightbulb or using a drill. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy. This project focuses on performing dexterous manipulation with minimal information about the object. This project has two main research goals:</p>
+<p>Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Consider a robot replacing a lightbulb, using a drill or pouring from a mustard bottle. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy. This project focuses on performing dexterous manipulation with minimal information about the object. I am intrigued by the complexity present in this problem involving multiple contacts and am actively exploring this research problem at the <a href="https://robot-learning.cs.utah.edu/" target="_blank">LL4MA lab</a>, advised by <a href="https://www.cs.utah.edu/~thermans" target="_blank">Dr. Tucker Hermans</a>.</p>
 
-<ol>
-<li>Exploring and analyzing qualitative physics based dexterous manipulation.</li>
-<li>Incorporating learning methods to overcome these limitations.</li>
-</ol>
-
-<p>I am actively exploring this research problem at the <a href="https://robot-learning.cs.utah.edu/" target="_blank">LL4MA lab</a>, advised by <a href="https://www.cs.utah.edu/~thermans" target="_blank">Dr. Tucker Hermans</a>.</p>
-
-<p>As part of the first goal, we explored performing in-grasp manipulation with a multi-fingered robotic hand. In-grasp manipulation as the problem of moving an object with reference to the palm from an initial pose to a goal pose without breaking or making contacts. We formulated a trajectory optimization problem with cost terms to perform in-grasp manipulation with constraints on the robot&rsquo;s joint limits. The cost terms attempt to move the object to the desired pose while trying to maintain the initial grasp. Our approach being purely kinematic allowed for performing in-grasp manipulation of novel objects.</p>
+<p>As part of this project, We are exploring the problem of reposing a grasped object with respect to the palm using the dexterity in the fingers. We explored performing in-grasp manipulation with a multi-fingered robotic hand. In-grasp manipulation is the problem of moving an object with reference to the palm from an initial pose to a goal pose without breaking or making contacts. We formulated a trajectory optimization problem with cost terms to perform in-grasp manipulation with constraints on the robot&rsquo;s joint limits. The cost terms attempt to move the object to the desired pose while trying to maintain the initial grasp. Our approach being purely kinematic allowed for performing in-grasp manipulation of novel objects. This work was presented at RSS 2017. Some experimental results are below.</p>
 
 
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
   <iframe src="//www.youtube.com/embed/Gn-yMRjbmPE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
+
+<p>We extended our in-grasp manipulation planner to allow for larger pose changes by incorporating fingertip relocation. This allows us to plan joint motions for moving from an initial fingertip grasp to a desired fingertip grasp. We formulated an alternating optimization scheme to optimize switching contact points on the grasped object through fingertip relocation and object reposing through in-grasp manipulation. A brief overview is in the video below.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/4fRHcLEQQjo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
  </div>
 
 
@@ -342,6 +360,10 @@
 
 
 
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.youtube.com/watch?v=4fRHcLEQQjo" target="_blank" rel="noopener">
+  Video
+</a>
+
 
 
 <a class="btn btn-primary btn-outline btn-xs" href="https://robot-learning.cs.utah.edu/project/in_hand_manipulation" target="_blank" rel="noopener">
@@ -359,7 +381,7 @@
   <span itemprop="author">
     Balakumar Sundaralingam, Tucker Hermans</span>.
   <a href="/publication/in_grasp_journal/" itemprop="name">Relaxed-Rigidity Constraints: Kinematic Trajectory Optimization and Collision Avoidance for In-Grasp Manipulation</a>.
-  Under review in AuRo (invited submission from RSS 2017),&nbsp;2018.
+  AuRo (Conditional Accept),&nbsp;2018.
   <p>
 
 
