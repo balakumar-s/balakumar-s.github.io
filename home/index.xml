@@ -27,7 +27,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description>Biography I am a third year PhD student at the University of Utah, affilitated to the School of Computing and the Utah Robotics Center. I am advised by Dr. Tucker Hermans at the LL4MA lab. My current research focuses on exploring physics based planning for dexterous manipulation of novel objects and how learning can improve them (Project Page).
+      <description>Biography I am a PhD student at the University of Utah, affilitated to the School of Computing and the Utah Robotics Center. I am advised by Dr. Tucker Hermans at the LL4MA lab. My current research focuses on exploring physics based planning and learned feedback control for dexterous manipulation of novel objects (Project Page).
 I graduated with a Bachelors in Mechatronics from SASTRA University. My undergraduate thesis was on generating odometry for a mobile robot from Laser scan data(URL).</description>
     </item>
     
@@ -37,7 +37,7 @@ I graduated with a Bachelors in Mechatronics from SASTRA University. My undergra
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/news/</guid>
-      <description> Paper accepted at ICRA 2018.  </description>
+      <description> April 2018: Will be presenting our in-hand regrasp planning paper at ICRA 2018 in Brisbane. Feb 2018: Paper accepted at ICRA 2018. Jan 2018: Will be interning at Nvidia during Summer 2018.  </description>
     </item>
     
     <item>
@@ -68,6 +68,16 @@ I graduated with a Bachelors in Mechatronics from SASTRA University. My undergra
     </item>
     
     <item>
+      <title>Teaching</title>
+      <link>/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/teaching/</guid>
+      <description>I was a teaching assistant at University of Utah for the following courses:
+ ME EN 3230: Mechatronics CS 6310: Robotics CS 7320: System Identification for Robotics  I created labs with the Baxter robot for CS 6310 and CS 7320.  Left: Circle Point Analysis to estimate joint axis of rotation Right: Load inertial estimation using wrist mounted force/torque sensor</description>
+    </item>
+    
+    <item>
       <title>Course Projects</title>
       <link>/home/class_proj/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
@@ -83,16 +93,6 @@ I graduated with a Bachelors in Mechatronics from SASTRA University. My undergra
       
       <guid>/home/posts/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/home/teaching/</guid>
-      <description>I was a teaching assistant at University of Utah for the following courses:
- ME EN 3230: Mechatronics CS 6310: Robotics CS 7320: System Identification for Robotics  I created labs with the Baxter robot for CS 6310 and CS 7320.  Left: Circle Point Analysis to estimate joint axis of rotation Right: Load inertial estimation using wrist mounted force/torque sensor</description>
     </item>
     
     <item>
