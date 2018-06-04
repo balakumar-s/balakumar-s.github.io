@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Balakumar Sundaralingam</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Relaxed-Rigidity Constraints</title>
       <link>/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
       
       <guid>/home/hero/</guid>
       <description>Performing In-grasp manipulation through purely kinematic trajectory optimization.</description>
@@ -37,13 +37,13 @@ I graduated with a Bachelors in Mechatronics from SASTRA University. My undergra
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/news/</guid>
-      <description> April 2018: Will be presenting our in-hand regrasp planning paper at ICRA 2018 in Brisbane. Feb 2018: Paper accepted at ICRA 2018. Jan 2018: Will be interning at Nvidia during Summer 2018.  </description>
+      <description> May 2018: Paper Paper accepted in Autonomous Robots. April 2018: Will be presenting our in-hand regrasp planning paper at ICRA 2018 in Brisbane. Feb 2018: Paper accepted at ICRA 2018. Jan 2018: Will be interning at Nvidia during Summer 2018.  </description>
     </item>
     
     <item>
       <title>Selected Publications</title>
       <link>/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/publications_selected/</guid>
       <description></description>
@@ -52,7 +52,7 @@ I graduated with a Bachelors in Mechatronics from SASTRA University. My undergra
     <item>
       <title>Publications</title>
       <link>/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/publications/</guid>
       <description></description>
@@ -98,7 +98,7 @@ I graduated with a Bachelors in Mechatronics from SASTRA University. My undergra
     <item>
       <title>Tags</title>
       <link>/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
       
       <guid>/home/tags/</guid>
       <description></description>

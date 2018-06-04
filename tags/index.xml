@@ -24,7 +24,7 @@
     <item>
       <title>Collision-avoidance</title>
       <link>/tags/collision-avoidance/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
       
       <guid>/tags/collision-avoidance/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Gazebo</title>
       <link>/tags/gazebo/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0700</pubDate>
       
       <guid>/tags/gazebo/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>Machine-learning</title>
       <link>/tags/machine-learning/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0800</pubDate>
       
       <guid>/tags/machine-learning/</guid>
       <description></description>
@@ -87,7 +87,7 @@
     <item>
       <title>Mobile-robot</title>
       <link>/tags/mobile-robot/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
       
       <guid>/tags/mobile-robot/</guid>
       <description></description>
@@ -105,7 +105,7 @@
     <item>
       <title>OpenCV</title>
       <link>/tags/opencv/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0800</pubDate>
       
       <guid>/tags/opencv/</guid>
       <description></description>
@@ -114,7 +114,7 @@
     <item>
       <title>ROS</title>
       <link>/tags/ros/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0800</pubDate>
       
       <guid>/tags/ros/</guid>
       <description></description>
@@ -123,7 +123,7 @@
     <item>
       <title>SLAM</title>
       <link>/tags/slam/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0700</pubDate>
       
       <guid>/tags/slam/</guid>
       <description></description>
@@ -141,7 +141,7 @@
     <item>
       <title>VREP</title>
       <link>/tags/vrep/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
       
       <guid>/tags/vrep/</guid>
       <description></description>
