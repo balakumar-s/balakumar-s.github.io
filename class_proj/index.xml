@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Balakumar Sundaralingam</copyright>
-    <lastBuildDate>Thu, 01 Dec 2016 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 01 Dec 2016 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/class_proj/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Using Push locations to Classify and predict Object Dynamics</title>
       <link>/class_proj/ml_proj/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0700</pubDate>
       
       <guid>/class_proj/ml_proj/</guid>
       <description>Contributors: Balakumar Sundaralingam, Vairavan Sivaraman.
@@ -25,7 +25,7 @@ Introduction &amp;amp; Motivation Predicting an object’s next state without ex
     <item>
       <title>Artificial Potential Field Collision Avoidance for holonomic mobile robots</title>
       <link>/class_proj/collision_avoidance/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
       
       <guid>/class_proj/collision_avoidance/</guid>
       <description>Contributors: Balakumar Sundaralingam, Rohith Prasad.
@@ -35,7 +35,7 @@ Introduction The use of tele-operated robots in search and rescue, environment m
     <item>
       <title>Optic Flow based  Collision Avoidance for holonomic mobile robots</title>
       <link>/class_proj/optic_flow/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
       
       <guid>/class_proj/optic_flow/</guid>
       <description>Contributors: Balakumar Sundaralingam.

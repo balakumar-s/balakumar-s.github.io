@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Balakumar Sundaralingam</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0600</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects</title>
+      <link>/publication/dope_corl/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/dope_corl/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Relaxed-Rigidity Constraints: Kinematic Trajectory Optimization and Collision Avoidance for In-Grasp Manipulation</title>
@@ -79,7 +88,7 @@
     <item>
       <title>Using Push locations to Classify and predict Object Dynamics</title>
       <link>/class_proj/ml_proj/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0700</pubDate>
       
       <guid>/class_proj/ml_proj/</guid>
       <description>
@@ -471,7 +480,7 @@ and it might also be non-linear. For a 2000 dataset, the accuracy of
     <item>
       <title>Artificial Potential Field Collision Avoidance for holonomic mobile robots</title>
       <link>/class_proj/collision_avoidance/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
       
       <guid>/class_proj/collision_avoidance/</guid>
       <description>
@@ -677,7 +686,7 @@ as vector polar histogram might be feasible.&lt;/p&gt;
     <item>
       <title>Optic Flow based  Collision Avoidance for holonomic mobile robots</title>
       <link>/class_proj/optic_flow/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
       
       <guid>/class_proj/optic_flow/</guid>
       <description>
@@ -874,7 +883,7 @@ with cheap collision avoidance systems such as in toys.&lt;/p&gt;
     <item>
       <title>Mobile robot simulation in Gazebo</title>
       <link>/post/mobile_robot_simulation/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0600</pubDate>
       
       <guid>/post/mobile_robot_simulation/</guid>
       <description>&lt;p&gt;To get to speed with ROS and Gazebo, I created the Pioneer 3AT robot from mesh files. Learning about simulating the robot&amp;rsquo;s drive motors was interesting. This code is available in &lt;a href=&#34;https://github.com/balakumar-s/p3atGazeboRos&#34; target=&#34;_blank&#34;&gt;git&lt;/a&gt;. Here is a video of the simulation.

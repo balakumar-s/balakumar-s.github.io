@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/publication/dope_corl/</loc>
+      <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/in_grasp_journal/</loc>
       <lastmod>2018-05-01T00:00:00+00:00</lastmod>
     </url>
@@ -69,7 +78,7 @@
     <url>
     
       <loc>/class_proj/ml_proj/</loc>
-      <lastmod>2016-12-01T00:00:00-08:00</lastmod>
+      <lastmod>2016-12-01T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -78,7 +87,7 @@
     <url>
     
       <loc>/class_proj/collision_avoidance/</loc>
-      <lastmod>2015-05-01T00:00:00-07:00</lastmod>
+      <lastmod>2015-05-01T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -87,7 +96,7 @@
     <url>
     
       <loc>/class_proj/optic_flow/</loc>
-      <lastmod>2015-05-01T00:00:00-07:00</lastmod>
+      <lastmod>2015-05-01T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -96,7 +105,7 @@
     <url>
     
       <loc>/post/mobile_robot_simulation/</loc>
-      <lastmod>2016-05-01T00:00:00-07:00</lastmod>
+      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -114,7 +123,7 @@
     <url>
     
       <loc>/publication_types/1/</loc>
-      <lastmod>2018-01-11T00:00:00+00:00</lastmod>
+      <lastmod>2018-10-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -134,7 +143,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00-07:00</lastmod>
+      <lastmod>2017-10-15T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -153,7 +162,97 @@
     <url>
     
       <loc>/class_proj/</loc>
-      <lastmod>2016-12-01T00:00:00-08:00</lastmod>
+      <lastmod>2016-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/gazebo/</loc>
+      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/matlab/</loc>
+      <lastmod>2013-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/</loc>
+      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/</loc>
+      <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/ros/</loc>
+      <lastmod>2016-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/slam/</loc>
+      <lastmod>2016-05-01T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/vrep/</loc>
+      <lastmod>2015-05-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -163,7 +262,7 @@
     <url>
     
       <loc>/tags/collision-avoidance/</loc>
-      <lastmod>2015-05-01T00:00:00-07:00</lastmod>
+      <lastmod>2015-05-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -192,16 +291,6 @@
     
     <url>
     
-      <loc>/tags/gazebo/</loc>
-      <lastmod>2016-05-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/grasp-planning/</loc>
       <lastmod>2017-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -213,17 +302,7 @@
     <url>
     
       <loc>/tags/machine-learning/</loc>
-      <lastmod>2016-12-01T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/matlab/</loc>
-      <lastmod>2013-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2016-12-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -233,7 +312,7 @@
     <url>
     
       <loc>/tags/mobile-robot/</loc>
-      <lastmod>2015-05-01T00:00:00-07:00</lastmod>
+      <lastmod>2015-05-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -253,67 +332,7 @@
     <url>
     
       <loc>/tags/opencv/</loc>
-      <lastmod>2016-12-01T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2016-05-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <lastmod>2018-01-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/ros/</loc>
-      <lastmod>2016-12-01T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/slam/</loc>
-      <lastmod>2016-05-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2016-12-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -324,16 +343,6 @@
     
       <loc>/tags/trajectory-optimization/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/vrep/</loc>
-      <lastmod>2015-05-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
