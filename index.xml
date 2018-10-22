@@ -35,7 +35,7 @@
       
       <guid>/project/robot_perception/</guid>
       <description>&lt;p&gt;This project aims to explore perception to aid robot manipulation. Closed loop feedback control for manipulation tasks have been lacking in the real world due to limitations of current perception approaches. Could perception from different sources such as tactile, vision and aural fill in the gaps existing in a single source?
-As a first step, I worked on building a robust mapping from raw tactile signals to force. This work leveraged neural networks for learning the mapping in a supervised setup. Ground truth force was collected from multiple sources for robust force estimation. One source of force was inferred from object motion through planar pushing by modelling the pushing dynamics as a system of particles. A video describing the approach and the results is below
+As a first step, we worked on building a robust mapping from raw tactile signals to force. This work leveraged neural networks for learning the mapping in a supervised setup. Ground truth force was collected from multiple sources for robust force estimation. One source of force was inferred from object motion through planar pushing by modelling the pushing dynamics as a system of particles. A video describing the approach and the results is below
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/sNtqVDS3ZpU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
