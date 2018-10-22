@@ -11,7 +11,7 @@
   <meta name="description" content="PhD Student, Utah Robotics Center">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/dope_corl/">
+  <link rel="alternate" hreflang="en-us" href="/publication/tactile_force/">
 
   
   
@@ -57,24 +57,24 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/publication/dope_corl/">
+  <link rel="canonical" href="/publication/tactile_force/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Balakumar Sundaralingam">
-  <meta property="og:url" content="/publication/dope_corl/">
-  <meta property="og:title" content="Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects | Balakumar Sundaralingam">
-  <meta property="og:description" content=" Using synthetic data for training deep neural networks for robotic manipulation holds the promise of an almost unlimited amount of pre-labeled training data, generated safely out of harm&#39;s way. One of the key challenges of synthetic data, to date, has been to bridge the so-called reality gap, so that networks trained on synthetic data operate correctly when exposed to real-world data. We explore the reality gap in the context of 6-DoF pose estimation of known objects from a single RGB image. We show that for this problem the reality gap can be successfully spanned by a simple combination of domain randomized and photorealistic data. Using synthetic data generated in this manner, we introduce a one-shot deep neural network that is able to perform competitively against a state-of-the-art network trained on a combination of real and synthetic data. To our knowledge, this is the first deep network trained only on synthetic data that is able to achieve state-of-the-art performance on 6-DoF object pose estimation. Our network also generalizes better to novel environments including extreme lighting conditions, for which we show qualitative results. Using this network we demonstrate a real-time system estimating object poses with sufficient accuracy for real-world semantic grasping of known household objects in clutter by a real robot">
+  <meta property="og:url" content="/publication/tactile_force/">
+  <meta property="og:title" content="Robust Learning of Tactile Force Estimation through Robot Interaction | Balakumar Sundaralingam">
+  <meta property="og:description" content="Current methods for estimating force from tactile sensor signals are either inaccurate analytic models or task-specific learned models. In this paper, we explore learning a robust model that maps tactile sensor signals to force. We specifically explore learning a mapping for the SynTouch BioTac sensor via neural networks. We propose a voxelized input feature layer for spatial signals and leverage information about the sensor surface to regularize the loss function. To learn a robust tactile force model that transfers across tasks, we generate ground truth data from three different sources:  (1) the BioTac rigidly mounted to a force torque sensor, (2) a robot interacting with a ball rigidly attached to a force sensor to collect a wide range of force readings, and (3) through force inference on a planar pushing task by formalizing the mechanics as a system of particles and optimizing over the object motion. A total of 140k samples were collected from the three sources. To study generalization, we evaluate using the learned model to estimate force inside a feedback controller performing grasp stabilization and object placement. We achieve a median angular accuracy of 0.06 radians in predicting force direction(66% improvement over the current state of the art) and a median magnitude accuracy of 0.06N(93% improvement) on a test dataset."><meta property="og:image" content="/img/headers/tactile_intro.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-10-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-05-01T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2018-10-01T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2019-05-01T00:00:00&#43;00:00">
   
 
-  <title>Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects | Balakumar Sundaralingam</title>
+  
+
+  <title>Robust Learning of Tactile Force Estimation through Robot Interaction | Balakumar Sundaralingam</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -217,13 +217,18 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
+<div class="article-header">
+  <img src="/img/headers/tactile_intro.png" class="article-banner" itemprop="image">
+  
+</div>
+
 
 
   <div class="container pub-title">
-    <h1 itemprop="name">Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects</h1>
+    <h1 itemprop="name">Robust Learning of Tactile Force Estimation through Robot Interaction</h1>
     <span class="pub-authors" itemprop="author">
       
-      Jonathan Tremblay, Thang To, Balakumar Sundaralingam, Yu Xiang, Dieter Fox, Stan Birchfield
+      Balakumar Sundaralingam, Alexander (Sasha) Lambert, Ankur Handa, Byron Boots, Tucker Hermans, Stan Birchfield, Nathan Ratliff, Dieter Fox
       
     </span>
     <span class="pull-right">
@@ -232,35 +237,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Deep%20Object%20Pose%20Estimation%20for%20Semantic%20Robotic%20Grasping%20of%20Household%20Objects&amp;url=%2fpublication%2fdope_corl%2f"
+         href="https://twitter.com/intent/tweet?text=Robust%20Learning%20of%20Tactile%20Force%20Estimation%20through%20Robot%20Interaction&amp;url=%2fpublication%2ftactile_force%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fdope_corl%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2ftactile_force%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fdope_corl%2f&amp;title=Deep%20Object%20Pose%20Estimation%20for%20Semantic%20Robotic%20Grasping%20of%20Household%20Objects"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2ftactile_force%2f&amp;title=Robust%20Learning%20of%20Tactile%20Force%20Estimation%20through%20Robot%20Interaction"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fdope_corl%2f&amp;title=Deep%20Object%20Pose%20Estimation%20for%20Semantic%20Robotic%20Grasping%20of%20Household%20Objects"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2ftactile_force%2f&amp;title=Robust%20Learning%20of%20Tactile%20Force%20Estimation%20through%20Robot%20Interaction"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Deep%20Object%20Pose%20Estimation%20for%20Semantic%20Robotic%20Grasping%20of%20Household%20Objects&amp;body=%2fpublication%2fdope_corl%2f">
+         href="mailto:?subject=Robust%20Learning%20of%20Tactile%20Force%20Estimation%20through%20Robot%20Interaction&amp;body=%2fpublication%2ftactile_force%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -277,7 +282,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Using synthetic data for training deep neural networks for robotic manipulation holds the promise of an almost unlimited amount of pre-labeled training data, generated safely out of harm&rsquo;s way. One of the key challenges of synthetic data, to date, has been to bridge the so-called reality gap, so that networks trained on synthetic data operate correctly when exposed to real-world data. We explore the reality gap in the context of 6-DoF pose estimation of known objects from a single RGB image. We show that for this problem the reality gap can be successfully spanned by a simple combination of domain randomized and photorealistic data. Using synthetic data generated in this manner, we introduce a one-shot deep neural network that is able to perform competitively against a state-of-the-art network trained on a combination of real and synthetic data. To our knowledge, this is the first deep network trained only on synthetic data that is able to achieve state-of-the-art performance on 6-DoF object pose estimation. Our network also generalizes better to novel environments including extreme lighting conditions, for which we show qualitative results. Using this network we demonstrate a real-time system estimating object poses with sufficient accuracy for real-world semantic grasping of known household objects in clutter by a real robot</p>
+    <p class="pub-abstract" itemprop="text">Current methods for estimating force from tactile sensor signals are either inaccurate analytic models or task-specific learned models. In this paper, we explore learning a robust model that maps tactile sensor signals to force. We specifically explore learning a mapping for the SynTouch BioTac sensor via neural networks. We propose a voxelized input feature layer for spatial signals and leverage information about the sensor surface to regularize the loss function. To learn a robust tactile force model that transfers across tasks, we generate ground truth data from three different sources:  (1) the BioTac rigidly mounted to a force torque sensor, (2) a robot interacting with a ball rigidly attached to a force sensor to collect a wide range of force readings, and (3) through force inference on a planar pushing task by formalizing the mechanics as a system of particles and optimizing over the object motion. A total of 140k samples were collected from the three sources. To study generalization, we evaluate using the learned model to estimate force inside a feedback controller performing grasp stabilization and object placement. We achieve a median angular accuracy of 0.06 radians in predicting force direction(66% improvement over the current state of the art) and a median magnitude accuracy of 0.06N(93% improvement) on a test dataset.</p>
     
 
     
@@ -288,8 +293,8 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
           <div class="col-xs-12 col-sm-9">
             
-            <a href="/publication/#1">
-              Conference proceedings
+            <a href="/publication/#3">
+              Under review
             </a>
             
           </div>
@@ -305,7 +310,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">In <em>Conference on Robot Learning (CoRL)</em>.</div>
+          <div class="col-xs-12 col-sm-9">Under review in <em>IEEE International Conference on Robotics and Automation (ICRA)</em>.</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -318,7 +323,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            October, 2018
+            May, 2019
           </div>
         </div>
       </div>
@@ -337,10 +342,10 @@
 
 
 
-
-<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1809.10790" target="_blank" rel="noopener">
-  PDF
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1810.06187" target="_blank" rel="noopener">
+  Preprint
 </a>
+
 
 
 
@@ -357,11 +362,11 @@
 
 
 
-
-
-<a class="btn btn-primary btn-outline" href="https://research.nvidia.com/publication/2018-09_Deep-Object-Pose" target="_blank" rel="noopener">
-  Website
+<a class="btn btn-primary btn-outline" href="https://www.youtube.com/watch?v=sNtqVDS3ZpU" target="_blank" rel="noopener">
+  Video
 </a>
+
+
 
 
 
@@ -386,13 +391,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="/publication/in_grasp_journal/"><span
-      aria-hidden="true">&larr;</span> Relaxed-Rigidity Constraints: Kinematic Trajectory Optimization and Collision Avoidance for In-Grasp Manipulation</a></li>
+    <li class="previous"><a href="/publication/dope_corl/"><span
+      aria-hidden="true">&larr;</span> Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects</a></li>
     
 
-    
-    <li class="next"><a href="/publication/tactile_force/">Robust Learning of Tactile Force Estimation through Robot Interaction <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
@@ -476,13 +478,6 @@
       <script>hljs.initHighlightingOnLoad();</script>
     
 
-    
-    
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
-    </script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 
