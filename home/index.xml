@@ -27,8 +27,8 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description>Biography I am a PhD student at the University of Utah, affilitated to the School of Computing and the Utah Robotics Center. I am advised by Dr. Tucker Hermans at the LL4MA lab. I am currently exploring dexterous manipulation of novel objects (Project Page).
-I graduated with a Bachelors in Mechatronics from SASTRA University. My undergraduate thesis was on generating odometry for a mobile robot from Laser scan data(URL).</description>
+      <description>Biography I am a PhD student at the University of Utah, affilitated to the School of Computing and the Utah Robotics Center. I am advised by Dr. Tucker Hermans at the LL4MA lab. I am currently exploring dexterous manipulation of novel objects (Project Page) and how multi-sensory perception (Project Page) can aid manipulation.
+I graduated with a Bachelors in Mechatronics from SASTRA University. My undergraduate thesis was on generating odometry for a mobile robot from Laser scan data(Project Page).</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@ I graduated with a Bachelors in Mechatronics from SASTRA University. My undergra
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/news/</guid>
-      <description> October 2018: Paper accepted at CORL 2018. May 2018: Paper accepted in Autonomous Robots. April 2018: Will be presenting our in-hand regrasp planning paper at ICRA 2018 in Brisbane. Feb 2018: Paper accepted at ICRA 2018. Jan 2018: Will be interning at Nvidia during Summer 2018.  </description>
+      <description> October 2018: Paper accepted at CoRL 2018. May 2018: Paper accepted in Autonomous Robots. April 2018: Will be presenting our in-hand regrasp planning paper at ICRA 2018 in Brisbane. Feb 2018: Paper accepted at ICRA 2018. Jan 2018: Will be interning at Nvidia during Summer 2018.  </description>
     </item>
     
     <item>
@@ -50,7 +50,7 @@ I graduated with a Bachelors in Mechatronics from SASTRA University. My undergra
     </item>
     
     <item>
-      <title>Publications</title>
+      <title>Other Publications</title>
       <link>/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       

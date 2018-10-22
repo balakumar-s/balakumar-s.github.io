@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Balakumar Sundaralingam</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/motion-planning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Robot Perception</title>
+      <link>/project/robot_perception/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/robot_perception/</guid>
+      <description>This project aims to explore perception to aid robot manipulation. Closed loop feedback control for manipulation tasks have been lacking in the real world due to limitations of current perception approaches. Could perception from different sources such as tactile, vision and aural fill in the gaps existing in a single source? As a first step, I worked on building a robust mapping from raw tactile signals to force. This work leveraged neural networks for learning the mapping in a supervised setup.</description>
+    </item>
     
     <item>
       <title>Dexterous Manipulation</title>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>robot-perception on Balakumar Sundaralingam</title>
+    <link>/tags/robot-perception/</link>
+    <description>Recent content in robot-perception on Balakumar Sundaralingam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Balakumar Sundaralingam</copyright>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/robot-perception/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Robot Perception</title>
+      <link>/project/robot_perception/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/robot_perception/</guid>
+      <description>This project aims to explore perception to aid robot manipulation. Closed loop feedback control for manipulation tasks have been lacking in the real world due to limitations of current perception approaches. Could perception from different sources such as tactile, vision and aural fill in the gaps existing in a single source? As a first step, I worked on building a robust mapping from raw tactile signals to force. This work leveraged neural networks for learning the mapping in a supervised setup.</description>
+    </item>
+    
+  </channel>
+</rss>

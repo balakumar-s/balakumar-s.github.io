@@ -123,7 +123,7 @@
     <item>
       <title>motion-planning</title>
       <link>/tags/motion-planning/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/motion-planning/</guid>
       <description></description>
@@ -139,9 +139,18 @@
     </item>
     
     <item>
+      <title>robot-perception</title>
+      <link>/tags/robot-perception/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/robot-perception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>trajectory-optimization</title>
       <link>/tags/trajectory-optimization/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/trajectory-optimization/</guid>
       <description></description>
