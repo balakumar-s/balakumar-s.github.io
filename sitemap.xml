@@ -23,6 +23,15 @@
     
     <url>
     
+      <loc>/publication/in_grasp_journal/</loc>
+      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/tactile_force/</loc>
       <lastmod>2019-05-01T00:00:00+00:00</lastmod>
     </url>
@@ -43,15 +52,6 @@
     
       <loc>/project/robot_perception/</loc>
       <lastmod>2018-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/in_grasp_journal/</loc>
-      <lastmod>2018-05-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -169,7 +169,7 @@
     <url>
     
       <loc>/publication_types/2/</loc>
-      <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
