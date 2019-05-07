@@ -642,7 +642,7 @@ article {
   line-height: normal;
   font-style: normal;
   font-size: 1rem;
-  color: #3170A5;
+  color:  #cc0000;
 }
 
 .pub-list-item .pub-publication {
@@ -1243,7 +1243,7 @@ table#continued > tbody > tr:nth-child(odd) > th {
 /* Table Hover */
 table#continued > tbody > tr:hover > td,
 table#continued > tbody > tr:hover > th {
-    background-color: rgb(247,247,247);
+    background-color: #ddd;
 
 }
 
