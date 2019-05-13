@@ -985,7 +985,7 @@ footer a#back_to_top i {
 }
 
 .navbar-default {
-  background: #fff9f7;
+  background: #ffffff;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
@@ -1047,7 +1047,7 @@ nav#navbar-main li {
 }
 
 .dropdown-menu {
-  background-color: #fff9f7 !important;
+  background-color: #ffffff !important;
 }
 
 .dropdown-menu > li > a {
@@ -1064,13 +1064,13 @@ nav#navbar-main li {
 .dropdown-menu>li>a:hover {
   color: #cc0000;
   text-decoration: none;
-  background-color: #fff9f7;
+  background-color: #ffffff;
 }
 
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:focus,
 .dropdown-menu > .active > a:hover {
-  color: #fff9f7;
+  color: #ffffff;
   text-decoration: none;
   background-color: #cc0000;
   outline: 0;
@@ -1081,7 +1081,7 @@ nav#navbar-main li {
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:visited {
   color: #000 !important;
-  background-color: #fff9f7 !important;
+  background-color: #ffffff !important;
 }
 
 .navbar-default .navbar-brand {
