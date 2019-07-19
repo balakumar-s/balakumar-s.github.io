@@ -14,10 +14,10 @@
     
     <item>
       <title>Using Push locations to Classify and predict Object Dynamics</title>
-      <link>/class_proj/ml_proj/</link>
+      <link>/post/ml_proj/</link>
       <pubDate>Thu, 01 Dec 2016 00:00:00 -0700</pubDate>
       
-      <guid>/class_proj/ml_proj/</guid>
+      <guid>/post/ml_proj/</guid>
       <description>Contributors: Balakumar Sundaralingam, Vairavan Sivaraman.
 Introduction &amp;amp; Motivation Predicting an object’s next state without explicitly knowing the dynamics of the object is an interesting problem which would reduce the need for building a physical model of an object. This is even more important in the open world where an object’s dynamics is too complex to mathematically model. Instead of depending on mathematical models, the easier way would be to interact with the object at different contact points and build a classifier to predict the object’s next state.</description>
     </item>

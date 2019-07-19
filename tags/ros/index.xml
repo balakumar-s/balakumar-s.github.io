@@ -14,30 +14,30 @@
     
     <item>
       <title>Using Push locations to Classify and predict Object Dynamics</title>
-      <link>/class_proj/ml_proj/</link>
+      <link>/post/ml_proj/</link>
       <pubDate>Thu, 01 Dec 2016 00:00:00 -0700</pubDate>
       
-      <guid>/class_proj/ml_proj/</guid>
+      <guid>/post/ml_proj/</guid>
       <description>Contributors: Balakumar Sundaralingam, Vairavan Sivaraman.
 Introduction &amp;amp; Motivation Predicting an object’s next state without explicitly knowing the dynamics of the object is an interesting problem which would reduce the need for building a physical model of an object. This is even more important in the open world where an object’s dynamics is too complex to mathematically model. Instead of depending on mathematical models, the easier way would be to interact with the object at different contact points and build a classifier to predict the object’s next state.</description>
     </item>
     
     <item>
       <title>Artificial Potential Field Collision Avoidance for holonomic mobile robots</title>
-      <link>/class_proj/collision_avoidance/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
+      <link>/post/collision_avoidance/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
       
-      <guid>/class_proj/collision_avoidance/</guid>
+      <guid>/post/collision_avoidance/</guid>
       <description>Contributors: Balakumar Sundaralingam, Rohith Prasad.
 Introduction The use of tele-operated robots in search and rescue, environment monitoring and interstellar exploration has increased in the past years. Tele-operation of robots is a complex task. The operator not only has to focus on the task but also perform collision avoidance so that the robot does not collide with obstacles in the environment. The addition of an automatic collision avoidance system to the robot will ease the operator and allow the operator to focus more on the task.</description>
     </item>
     
     <item>
       <title>Optic Flow based  Collision Avoidance for holonomic mobile robots</title>
-      <link>/class_proj/optic_flow/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
+      <link>/post/optic_flow/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
       
-      <guid>/class_proj/optic_flow/</guid>
+      <guid>/post/optic_flow/</guid>
       <description>Contributors: Balakumar Sundaralingam.
 Introduction Optical flow is one of the many ways to detect motion in a video stream. Conversely it can be used to interact with the real 3d world. Exploring this possibility motivated me to see if optical flow from a single camera is good for collision avoidance. The base idea is to have the environment static and the camera moving. This is discussed in the below sections.</description>
     </item>
@@ -45,7 +45,7 @@ Introduction Optical flow is one of the many ways to detect motion in a video st
     <item>
       <title>Mobile robot simulation in Gazebo</title>
       <link>/post/mobile_robot_simulation/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0600</pubDate>
       
       <guid>/post/mobile_robot_simulation/</guid>
       <description>To get to speed with ROS and Gazebo, I created the Pioneer 3AT robot from mesh files. Learning about simulating the robot&amp;rsquo;s drive motors was interesting. This code is available in git. Here is a video of the simulation.   Out of curiosity, I also setup hector slam to generate a map of the environment.   </description>
