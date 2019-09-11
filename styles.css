@@ -244,7 +244,7 @@ small,
 }
 
 .home-section {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 249, 247);
   padding: 110px 0 110px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
@@ -255,7 +255,7 @@ small,
 }
 
 .home-section:nth-of-type(even) {
-  background-color: rgb(247,247,247);
+  background-color: rgb(255,255,255);
 }
 
 @media screen and (max-width: 768px) {
@@ -1202,7 +1202,7 @@ nav#navbar-main li {
 
 table#continued {
     width: 100%;
-    background-color: rgb(247,247,247);
+    background-color: rgb(255, 249, 247);
        
   font-size: 0.93rem;
   margin-bottom: 0.3rem;
@@ -1225,25 +1225,27 @@ table#continued > tfoot > tr > td {
   vertical-align: top;
   border-top: 0px solid #ddd;
   border-bottom: 0px solid #ddd;
-  background-color: rgb(247,247,247);
+  background-color: rgb(255,255,255);
 
 }
 
 table#continued > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 0px solid #ddd;
+  background-color: rgb(255, 249, 247);
+
 }
 
 table#continued > tbody > tr:nth-child(odd) > td,
 table#continued > tbody > tr:nth-child(odd) > th {
-   background-color: rgb(247,247,247);
+   background-color: rgb(255, 249, 247);
 
 }
 
 /* Table Hover */
 table#continued > tbody > tr:hover > td,
 table#continued > tbody > tr:hover > th {
-    background-color: #ddd;
+    background-color:  rgb(255,255,255);
 
 }
 
