@@ -244,7 +244,7 @@ small,
 }
 
 .home-section {
-  background-color: rgb(255, 249, 247);
+  background-color: #fffff3;
   padding: 110px 0 110px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
@@ -255,7 +255,7 @@ small,
 }
 
 .home-section:nth-of-type(even) {
-  background-color: rgb(255,255,255);
+  background-color: #fffffd;
 }
 
 @media screen and (max-width: 768px) {
@@ -508,7 +508,7 @@ article {
 }
 
 .article-title {
-  font-size: 1.75rem;
+  font-size: 1.3rem;
 }
 
 .article-title a {
@@ -985,8 +985,8 @@ footer a#back_to_top i {
 }
 
 .navbar-default {
-  background: #ffffff;
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
+  background: #fffff9;
+  box-shadow: 0 0.1rem 0.1rem 0 rgba(0,0,0,0.1)
 }
 
 .navbar-default .navbar-toggle {
@@ -999,7 +999,7 @@ footer a#back_to_top i {
 }
 
 nav#navbar-main li {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .navbar-default .navbar-nav>li>a,
@@ -1047,7 +1047,7 @@ nav#navbar-main li {
 }
 
 .dropdown-menu {
-  background-color: #ffffff !important;
+  background-color: #fffff9 !important;
 }
 
 .dropdown-menu > li > a {
@@ -1064,13 +1064,13 @@ nav#navbar-main li {
 .dropdown-menu>li>a:hover {
   color: #cc0000;
   text-decoration: none;
-  background-color: #ffffff;
+  background-color: #fffff9;
 }
 
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:focus,
 .dropdown-menu > .active > a:hover {
-  color: #ffffff;
+  color: #fffff9;
   text-decoration: none;
   background-color: #cc0000;
   outline: 0;
@@ -1081,7 +1081,7 @@ nav#navbar-main li {
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:visited {
   color: #000 !important;
-  background-color: #ffffff !important;
+  background-color: #fffff9 !important;
 }
 
 .navbar-default .navbar-brand {
@@ -1097,6 +1097,13 @@ nav#navbar-main li {
   background-color: transparent;
 }
 
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
 @media screen and (max-width: 1200px) {
   .navbar {
     min-height: 50px !important;
@@ -1121,9 +1128,17 @@ nav#navbar-main li {
 
   .navbar-left,
   .navbar-right {
-    float: none !important;
+      float: none !important;
+
   }
 
+  .navbar-nav.navbar-center {
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+  }
+  
   .navbar-toggle {
     display: block;
   }
@@ -1143,7 +1158,8 @@ nav#navbar-main li {
   }
 
   .navbar-nav > li {
-    float: none;
+      float: none;
+      
   }
 
   .navbar-nav > li > a {
@@ -1193,21 +1209,31 @@ nav#navbar-main li {
 
   .collapse.in {
     display: block !important;
+
   }
+  
 }
 
 /*************************************************
  *  Tables
  **************************************************/
-
+td:empty {
+  visibility: hidden;
+}
 table#continued {
     width: 100%;
-    background-color: rgb(255, 249, 247);
+    background-color: #fffff3;
        
-  font-size: 0.93rem;
+  font-size: 0.8rem;
   margin-bottom: 0.3rem;
   margin-top: 0.3rem;
 
+}
+.btn-table{
+    color: #0000ff;
+    font-size: 0.7rem;
+    padding: 2px 2px 2px;
+    #border: none;
 }
 
 table#continued > tbody + tbody {
@@ -1225,27 +1251,27 @@ table#continued > tfoot > tr > td {
   vertical-align: top;
   border-top: 0px solid #ddd;
   border-bottom: 0px solid #ddd;
-  background-color: rgb(255,255,255);
+  background-color: #fffffd;
 
 }
 
 table#continued > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 0px solid #ddd;
-  background-color: rgb(255, 249, 247);
+  background-color: #fffff3;
 
 }
 
 table#continued > tbody > tr:nth-child(odd) > td,
 table#continued > tbody > tr:nth-child(odd) > th {
-   background-color: rgb(255, 249, 247);
+   background-color: #fffff3;
 
 }
 
 /* Table Hover */
 table#continued > tbody > tr:hover > td,
 table#continued > tbody > tr:hover > th {
-    background-color:  rgb(255,255,255);
+    background-color:  #fffffd;
 
 }
 

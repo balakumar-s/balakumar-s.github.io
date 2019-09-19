@@ -50,6 +50,16 @@ In summer of 2018, I interned in the Seattle Robotics Lab at NVIDIA Research. I 
     </item>
     
     <item>
+      <title></title>
+      <link>/home/code_datasets/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/code_datasets/</guid>
+      <description>Research Code &amp;amp; Datasets Some of my research involves robots interacting with objects in the real world. I have collected RGB-D, robot state and other sensing available during robot execution for future use. I have made these datasets available along with quick implementations(mostly python) of the main contributions of associated research article.
+           Force Estimation from BioTac Code Dataset Research   In-Grasp Manipulation with Relaxed-Rigidity Code Dataset Research          Robot System Code I am actively involved in developing system level code(mostly C++) for robots ranging from low-level controllers to setting up finite state machines, primarily in ROS.</description>
+    </item>
+    
+    <item>
       <title>Research Projects</title>
       <link>/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
