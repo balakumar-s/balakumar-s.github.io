@@ -106,7 +106,7 @@ As a first step, we worked on building a robust mapping from raw tactile signals
       <guid>/project/dexterous_manipulation/</guid>
       <description>
 
-&lt;h4 id=&#34;advisor-dr-tucker-hermans-https-www-cs-utah-edu-thermans&#34;&gt;Advisor: &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Dr. Tucker Hermans&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;advisor-prof-tucker-hermans-https-www-cs-utah-edu-thermans&#34;&gt;Advisor: &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Prof. Tucker Hermans&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Consider a robot replacing a lightbulb, using a drill or pouring from a mustard bottle. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy. This project focuses on performing dexterous manipulation with minimal information about the object. I am intrigued by the complexity present in this problem involving multiple contacts and am actively exploring this research problem at the &lt;a href=&#34;https://robot-learning.cs.utah.edu/&#34; target=&#34;_blank&#34;&gt;LL4MA lab&lt;/a&gt;, advised by &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Dr. Tucker Hermans&lt;/a&gt;.&lt;/p&gt;
 

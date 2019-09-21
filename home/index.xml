@@ -27,8 +27,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description>I am a PhD candidate at the University of Utah, affilitated to the School of Computing and the Utah Robotics Center. I am advised by Tucker Hermans at the LL4MA lab. I am currently exploring dexterous manipulation of novel objects (Project Page) and how multi-sensory perception (Project Page) can aid manipulation.
-In summer of 2018, I interned in the Seattle Robotics Lab at NVIDIA Research. I worked with Dieter Fox, Nathan Ratliff, Ankur Handa, Stan Birchfield, and Byron Boots on tactile perception for robotic manipulation.</description>
+      <description>I am a Ph.D. candidate at the University of Utah, affiliated to the School of Computing and the Utah Robotics Center, advised by Prof. Tucker Hermans. My current research focuses on enabling robots equipped with dexterous hands to perform manipulation of novel objects (Project Page). My research spans across motion planning via gradient-based trajectory optimization, improving robot perception with learned tactile models and structured inference for joint parameter &amp;amp; state estimation.</description>
     </item>
     
     <item>
