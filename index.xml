@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Learning Continuous 3D Reconstructions for Geometrically Aware Grasping</title>
+      <link>/publication/recon_grasp/</link>
+      <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/recon_grasp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Benchmarking In-Hand Manipulation (*equal contribution)</title>
       <link>/publication/benchmarking_in_hand/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -929,28 +938,6 @@ bandwidth of the wireless network and is not related to the algorithm.
 &lt;p&gt;Thus it is seen that optical flow can be used to do collision avoidance
 if there is enough texture in the obstacles. This can be expanded to use
 with cheap collision avoidance systems such as in toys.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile robot simulation in Gazebo</title>
-      <link>/post/mobile_robot_simulation/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 -0600</pubDate>
-      
-      <guid>/post/mobile_robot_simulation/</guid>
-      <description>&lt;p&gt;To get to speed with ROS and Gazebo, I created the Pioneer 3AT robot from mesh files. Learning about simulating the robot&amp;rsquo;s drive motors was interesting. This code is available in &lt;a href=&#34;https://github.com/balakumar-s/p3atGazeboRos&#34; target=&#34;_blank&#34;&gt;git&lt;/a&gt;. Here is a video of the simulation.
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/z9PzmQjPOmY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Out of curiosity, I also setup hector slam to generate a map of the environment.
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/0TZ5NcKv7ZA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
 </description>
     </item>
     

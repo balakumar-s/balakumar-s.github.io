@@ -11,7 +11,7 @@
   <meta name="description" content="PhD Candidate">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/benchmarking_in_hand/">
+  <link rel="alternate" hreflang="en-us" href="/publication/recon_grasp/">
 
   
   
@@ -25,13 +25,6 @@
   
     
   
-  
-    
-    
-      
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-      
-    
   
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
@@ -57,24 +50,24 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/publication/benchmarking_in_hand/">
+  <link rel="canonical" href="/publication/recon_grasp/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Balakumar Sundaralingam">
-  <meta property="og:url" content="/publication/benchmarking_in_hand/">
-  <meta property="og:title" content="Benchmarking In-Hand Manipulation (*equal contribution) | Balakumar Sundaralingam">
-  <meta property="og:description" content="The purpose of this benchmark is to evaluate the planning and control aspects of robotic in-hand manipulation systems. The goal is to assess the system&#39;s ability to change the pose of a hand-held object by either using the fingers, environment or a combination of both. Given an object surface mesh from the YCB data-set, we provide examples of initial and goal states for various in-hand manipulation tasks. We further propose metrics that measure the error in reaching the goal state from a specific initial state, which, when aggregated across all tasks, also serves as a measure of the system&#39;s in-hand manipulation capability.">
+  <meta property="og:url" content="/publication/recon_grasp/">
+  <meta property="og:title" content="Learning Continuous 3D Reconstructions for Geometrically Aware Grasping | Balakumar Sundaralingam">
+  <meta property="og:description" content="Deep learning has enabled remarkable improvements in grasp synthesis for previously unseen objects viewed from partial views. However, existing approaches lack the ability to explicitly reason about the full 3D geometry of the object when selecting a grasp, relying on indirect geometric reasoning derived when learning grasp success networks. This abandons common sense geometric reasoning, such as avoiding undesired robot object collisions. We propose to utilize a novel, learned 3D reconstruction to enable geometric awareness in a grasping system. We leverage the structure of the reconstruction network to learn a grasp success classifier which serves as the objective function for a continuous grasp optimization. We additionally explicitly constrain the optimization to avoid undesired contact, directly using the reconstruction. By using the reconstruction network, our method can grasp objects from a new camera viewpoint which was not seen during training. Our results show that utilizing learned geometry outperforms alternative formulations for partial-view information based on real robot execution."><meta property="og:image" content="/img/headers/bubbles-wide.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2020-01-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2020-01-22T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2020-01-01T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2020-01-22T00:00:00&#43;00:00">
   
 
-  <title>Benchmarking In-Hand Manipulation (*equal contribution) | Balakumar Sundaralingam</title>
+  
+
+  <title>Learning Continuous 3D Reconstructions for Geometrically Aware Grasping | Balakumar Sundaralingam</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -234,13 +227,18 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
+<div class="article-header">
+  <img src="/img/headers/bubbles-wide.jpg" class="article-banner" itemprop="image">
+  <span class="article-header-caption">My caption 😄</span>
+</div>
+
 
 
   <div class="container pub-title">
-    <h2 itemprop="name">Benchmarking In-Hand Manipulation (*equal contribution)</h2>
+    <h2 itemprop="name">Learning Continuous 3D Reconstructions for Geometrically Aware Grasping</h2>
     <span class="pub-authors" itemprop="author">
       
-      Silvia Cruciani*, <strong>Balakumar Sundaralingam&ast;</strong>, Kaiyu Hang, Vikash Kumar, Tucker Hermans, Danica Kragic
+      Mark Van der Merwe, Qingkai Lu, <strong>Balakumar Sundaralingam</strong>, Martin Matak, Tucker Hermans
       
     </span>
     <span class="pull-right">
@@ -249,35 +247,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Benchmarking%20In-Hand%20Manipulation%20%28%2aequal%20contribution%29&amp;url=%2fpublication%2fbenchmarking_in_hand%2f"
+         href="https://twitter.com/intent/tweet?text=Learning%20Continuous%203D%20Reconstructions%20for%20Geometrically%20Aware%20Grasping&amp;url=%2fpublication%2frecon_grasp%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fbenchmarking_in_hand%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2frecon_grasp%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fbenchmarking_in_hand%2f&amp;title=Benchmarking%20In-Hand%20Manipulation%20%28%2aequal%20contribution%29"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2frecon_grasp%2f&amp;title=Learning%20Continuous%203D%20Reconstructions%20for%20Geometrically%20Aware%20Grasping"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fbenchmarking_in_hand%2f&amp;title=Benchmarking%20In-Hand%20Manipulation%20%28%2aequal%20contribution%29"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2frecon_grasp%2f&amp;title=Learning%20Continuous%203D%20Reconstructions%20for%20Geometrically%20Aware%20Grasping"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Benchmarking%20In-Hand%20Manipulation%20%28%2aequal%20contribution%29&amp;body=%2fpublication%2fbenchmarking_in_hand%2f">
+         href="mailto:?subject=Learning%20Continuous%203D%20Reconstructions%20for%20Geometrically%20Aware%20Grasping&amp;body=%2fpublication%2frecon_grasp%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -294,7 +292,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">The purpose of this benchmark is to evaluate the planning and control aspects of robotic in-hand manipulation systems. The goal is to assess the system&rsquo;s ability to change the pose of a hand-held object by either using the fingers, environment or a combination of both. Given an object surface mesh from the YCB data-set, we provide examples of initial and goal states for various in-hand manipulation tasks. We further propose metrics that measure the error in reaching the goal state from a specific initial state, which, when aggregated across all tasks, also serves as a measure of the system&rsquo;s in-hand manipulation capability.</p>
+    <p class="pub-abstract" itemprop="text">Deep learning has enabled remarkable improvements in grasp synthesis for previously unseen objects viewed from partial views. However, existing approaches lack the ability to explicitly reason about the full 3D geometry of the object when selecting a grasp, relying on indirect geometric reasoning derived when learning grasp success networks. This abandons common sense geometric reasoning, such as avoiding undesired robot object collisions. We propose to utilize a novel, learned 3D reconstruction to enable geometric awareness in a grasping system. We leverage the structure of the reconstruction network to learn a grasp success classifier which serves as the objective function for a continuous grasp optimization. We additionally explicitly constrain the optimization to avoid undesired contact, directly using the reconstruction. By using the reconstruction network, our method can grasp objects from a new camera viewpoint which was not seen during training. Our results show that utilizing learned geometry outperforms alternative formulations for partial-view information based on real robot execution.</p>
     
 
     
@@ -305,8 +303,8 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
           <div class="col-xs-12 col-sm-9">
             
-            <a href="/publication/#2">
-              Journal
+            <a href="/publication/#1">
+              Conference proceedings
             </a>
             
           </div>
@@ -322,7 +320,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9"><em>IEEE Robotics and Automation Letters (RA-L)</em></div>
+          <div class="col-xs-12 col-sm-9"><em>International Conference on Robotics and Automation(ICRA)</em></div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -355,7 +353,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/2001.03070" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1910.00983" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -364,24 +362,20 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="/project/dexterous_manipulation/">
-  Project
-</a>
 
 
 
 
 
 
-
-<a class="btn btn-primary btn-outline" href="https://robot-learning.cs.utah.edu/project/benchmarking_in_hand_manipulation" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://sites.google.com/view/reconstruction-grasp/home" target="_blank" rel="noopener">
   Website
 </a>
 
 
 
 <button type="button" class="btn btn-primary btn-outline js-cite-modal"
-        data-filename="/publication/benchmarking_in_hand/benchmarking_in_hand.bib">
+        data-filename="/publication/recon_grasp/recon_grasp.bib">
   Cite
 </button>
 
@@ -401,6 +395,17 @@
     
 
 
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/grasp-planning">grasp-planning</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/deep-learning">deep-learning</a>
+  
+</div>
+
+
+
+
   </div>
 </div>
 
@@ -408,13 +413,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="/publication/tactileforce_icra/"><span
-      aria-hidden="true">&larr;</span> Robust Learning of Tactile Force Estimation through Robot Interaction (Best Manipulation Paper Finalist)</a></li>
+    <li class="previous"><a href="/publication/benchmarking_in_hand/"><span
+      aria-hidden="true">&larr;</span> Benchmarking In-Hand Manipulation (*equal contribution)</a></li>
     
 
-    
-    <li class="next"><a href="/publication/recon_grasp/">Learning Continuous 3D Reconstructions for Geometrically Aware Grasping <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
@@ -486,18 +488,14 @@
 
     
     
-      
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
 
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
     
-
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 

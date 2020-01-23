@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/publication/recon_grasp/</loc>
+      <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/benchmarking_in_hand/</loc>
       <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -168,7 +177,7 @@
     <url>
     
       <loc>/publication_types/1/</loc>
-      <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+      <lastmod>2020-01-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -247,7 +256,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+      <lastmod>2020-01-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -307,7 +316,7 @@
     <url>
     
       <loc>/tags/deep-learning/</loc>
-      <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2020-01-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -327,7 +336,7 @@
     <url>
     
       <loc>/tags/grasp-planning/</loc>
-      <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2020-01-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
