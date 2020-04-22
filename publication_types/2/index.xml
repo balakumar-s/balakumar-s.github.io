@@ -14,17 +14,26 @@
     
     <item>
       <title>Benchmarking In-Hand Manipulation (*equal contribution)</title>
-      <link>/publication/benchmarking_in_hand/</link>
+      <link>/publication/bih/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/benchmarking_in_hand/</guid>
+      <guid>/publication/bih/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Fingered Grasp Planning via Inference in Deep Neural Networks</title>
+      <link>/publication/lu_grasp_ram/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/lu_grasp_ram/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Relaxed-Rigidity Constraints: Kinematic Trajectory Optimization and Collision Avoidance for In-Grasp Manipulation</title>
       <link>/publication/in_grasp_auro/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/publication/in_grasp_auro/</guid>
       <description></description>

@@ -14,10 +14,10 @@
     
     <item>
       <title> Mapping using only laser range finder on Mobile Robot</title>
-      <link>/project/mobile_robot_mapping/</link>
+      <link>/project/ug_thesis/</link>
       <pubDate>Sat, 27 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>/project/mobile_robot_mapping/</guid>
+      <guid>/project/ug_thesis/</guid>
       <description>Contributors: Balakumar Sundaralingam, Sudarsan Balaji, Yaswanth Kodavali.
 Advisor: Prof. Prem S. Abstract Mobile robots employ wheel encoders to generate odometric readings. But the odometric readings from the wheel encoders of the mobile robots are generally erroneous, even in indoor environments. Without proper guiding tools like GPS, it is very hard to localise the robot in each consecutive scan for mapping. To overcome this disadvantage, a generic approach to formulate an error function using wheel encoder readings is followed.</description>
     </item>

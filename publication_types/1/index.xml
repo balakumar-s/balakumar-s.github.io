@@ -7,33 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Balakumar Sundaralingam</copyright>
-    <lastBuildDate>Wed, 22 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Learning Continuous 3D Reconstructions for Geometrically Aware Grasping</title>
-      <link>/publication/recon_grasp/</link>
-      <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+      <link>/publication/merwe_grasp/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/recon_grasp/</guid>
+      <guid>/publication/merwe_grasp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Robust Learning of Tactile Force Estimation through Robot Interaction (Best Manipulation Paper Finalist)</title>
-      <link>/publication/tactileforce_icra/</link>
-      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/tactileforce_icra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Joint inference of kinematic and force trajectories with visuo-tactile sensing</title>
+      <title>&#34;Joint Inference of Kinematic and Force Trajectories with Visuo-Tactile Sensing&#34;</title>
       <link>/publication/lambert_vistac/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/publication/lambert_vistac/</guid>
       <description></description>
@@ -41,17 +32,26 @@
     
     <item>
       <title>Learning Latent Space Dynamics for Tactile Servoing</title>
-      <link>/publication/sutanto_taclat/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <link>/publication/sutanto_latent/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/sutanto_taclat/</guid>
+      <guid>/publication/sutanto_latent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Learning of Tactile Force Estimation through Robot Interaction (__Best Manipulation Paper Award Finalist__)</title>
+      <link>/publication/tactileforce_icra/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/tactileforce_icra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects</title>
       <link>/publication/tremblay_dope/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/tremblay_dope/</guid>
       <description></description>
@@ -60,18 +60,9 @@
     <item>
       <title>Geometric In-Hand Regrasp Planning: Alternating Optimization of Finger Gaits and In-Grasp Manipulation</title>
       <link>/publication/regrasp_icra/</link>
-      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/regrasp_icra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Planning Multi-Fingered Grasps as Probabilistic Inference in a Learned Deep Network</title>
-      <link>/publication/lu_grasp/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/lu_grasp/</guid>
       <description></description>
     </item>
     
@@ -81,6 +72,15 @@
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/in_grasp_rss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning Multi-Fingered Grasps as Probabilistic Inference in a Learned Deep Network</title>
+      <link>/publication/lu_grasp_isrr/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/lu_grasp_isrr/</guid>
       <description></description>
     </item>
     

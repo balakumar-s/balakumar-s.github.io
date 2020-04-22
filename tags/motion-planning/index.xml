@@ -7,28 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Balakumar Sundaralingam</copyright>
-    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2015 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="/tags/motion-planning/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Robot Perception</title>
-      <link>/project/robot_perception/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/project/robot_perception/</guid>
-      <description>This project aims to explore perception to aid robot manipulation. Closed loop feedback control for manipulation tasks have been lacking in the real world due to limitations of current perception approaches. Could perception from different sources such as tactile, vision and aural fill in the gaps existing in a single source? As a first step, we worked on building a robust mapping from raw tactile signals to force. This work leveraged neural networks for learning the mapping in a supervised setup.</description>
-    </item>
-    
-    <item>
-      <title>Dexterous Manipulation</title>
-      <link>/project/dexterous_manipulation/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/project/dexterous_manipulation/</guid>
-      <description>Advisor: Prof. Tucker Hermans Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Consider a robot replacing a lightbulb, using a drill or pouring from a mustard bottle. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy.</description>
-    </item>
     
     <item>
       <title>Artificial Potential Field Collision Avoidance for holonomic mobile robots</title>

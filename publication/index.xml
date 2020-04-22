@@ -13,36 +13,54 @@
     
     
     <item>
-      <title>Learning Continuous 3D Reconstructions for Geometrically Aware Grasping</title>
-      <link>/publication/recon_grasp/</link>
-      <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+      <title>In-Hand Object-Dynamics Inference using Tactile Fingertips</title>
+      <link>/publication/in_hand_dynamics/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/recon_grasp/</guid>
+      <guid>/publication/in_hand_dynamics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Benchmarking In-Hand Manipulation (*equal contribution)</title>
-      <link>/publication/benchmarking_in_hand/</link>
+      <link>/publication/bih/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/benchmarking_in_hand/</guid>
+      <guid>/publication/bih/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Robust Learning of Tactile Force Estimation through Robot Interaction (Best Manipulation Paper Finalist)</title>
-      <link>/publication/tactileforce_icra/</link>
-      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      <title>Learning Continuous 3D Reconstructions for Geometrically Aware Grasping</title>
+      <link>/publication/merwe_grasp/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/tactileforce_icra/</guid>
+      <guid>/publication/merwe_grasp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Joint inference of kinematic and force trajectories with visuo-tactile sensing</title>
+      <title>Multi-Fingered Grasp Planning via Inference in Deep Neural Networks</title>
+      <link>/publication/lu_grasp_ram/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/lu_grasp_ram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Relaxed-Rigidity Constraints: Kinematic Trajectory Optimization and Collision Avoidance for In-Grasp Manipulation</title>
+      <link>/publication/in_grasp_auro/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/in_grasp_auro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;Joint Inference of Kinematic and Force Trajectories with Visuo-Tactile Sensing&#34;</title>
       <link>/publication/lambert_vistac/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/publication/lambert_vistac/</guid>
       <description></description>
@@ -50,26 +68,26 @@
     
     <item>
       <title>Learning Latent Space Dynamics for Tactile Servoing</title>
-      <link>/publication/sutanto_taclat/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <link>/publication/sutanto_latent/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/sutanto_taclat/</guid>
+      <guid>/publication/sutanto_latent/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Relaxed-Rigidity Constraints: Kinematic Trajectory Optimization and Collision Avoidance for In-Grasp Manipulation</title>
-      <link>/publication/in_grasp_auro/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Robust Learning of Tactile Force Estimation through Robot Interaction (__Best Manipulation Paper Award Finalist__)</title>
+      <link>/publication/tactileforce_icra/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/in_grasp_auro/</guid>
+      <guid>/publication/tactileforce_icra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects</title>
       <link>/publication/tremblay_dope/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/tremblay_dope/</guid>
       <description></description>
@@ -78,18 +96,9 @@
     <item>
       <title>Geometric In-Hand Regrasp Planning: Alternating Optimization of Finger Gaits and In-Grasp Manipulation</title>
       <link>/publication/regrasp_icra/</link>
-      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/regrasp_icra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Planning Multi-Fingered Grasps as Probabilistic Inference in a Learned Deep Network</title>
-      <link>/publication/lu_grasp/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/lu_grasp/</guid>
       <description></description>
     </item>
     
@@ -99,6 +108,15 @@
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/in_grasp_rss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning Multi-Fingered Grasps as Probabilistic Inference in a Learned Deep Network</title>
+      <link>/publication/lu_grasp_isrr/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/lu_grasp_isrr/</guid>
       <description></description>
     </item>
     

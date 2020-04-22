@@ -5,8 +5,8 @@
     
     <url>
     
-      <loc>/publication/recon_grasp/</loc>
-      <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+      <loc>/project/phd_thesis/</loc>
+      <lastmod>2020-03-23T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -14,7 +14,16 @@
     
     <url>
     
-      <loc>/publication/benchmarking_in_hand/</loc>
+      <loc>/publication/in_hand_dynamics/</loc>
+      <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/bih/</loc>
       <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,8 +32,8 @@
     
     <url>
     
-      <loc>/publication/tactileforce_icra/</loc>
-      <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+      <loc>/publication/merwe_grasp/</loc>
+      <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -32,17 +41,8 @@
     
     <url>
     
-      <loc>/publication/lambert_vistac/</loc>
-      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/sutanto_taclat/</loc>
-      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+      <loc>/publication/lu_grasp_ram/</loc>
+      <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -51,7 +51,34 @@
     <url>
     
       <loc>/publication/in_grasp_auro/</loc>
-      <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/lambert_vistac/</loc>
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/sutanto_latent/</loc>
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/tactileforce_icra/</loc>
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -60,16 +87,7 @@
     <url>
     
       <loc>/publication/tremblay_dope/</loc>
-      <lastmod>2018-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/robot_perception/</loc>
-      <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -78,16 +96,7 @@
     <url>
     
       <loc>/publication/regrasp_icra/</loc>
-      <lastmod>2018-01-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/lu_grasp/</loc>
-      <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -113,7 +122,7 @@
     
     <url>
     
-      <loc>/project/dexterous_manipulation/</loc>
+      <loc>/publication/lu_grasp_isrr/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -158,6 +167,15 @@
     
     <url>
     
+      <loc>/teaching/</loc>
+      <lastmod>2015-05-01T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/mobile_robot_simulation/</loc>
       <lastmod>2016-05-01T00:00:00-06:00</lastmod>
     </url>
@@ -167,7 +185,7 @@
     
     <url>
     
-      <loc>/project/mobile_robot_mapping/</loc>
+      <loc>/project/ug_thesis/</loc>
       <lastmod>2013-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -177,7 +195,7 @@
     <url>
     
       <loc>/publication_types/1/</loc>
-      <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+      <lastmod>2020-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -188,6 +206,16 @@
     
       <loc>/publication_types/2/</loc>
       <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/3/</loc>
+      <lastmod>2020-03-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -246,7 +274,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+      <lastmod>2020-03-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -256,7 +284,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+      <lastmod>2020-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -315,36 +343,6 @@
     
     <url>
     
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2020-01-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/dexterous-manipulation/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/grasp-planning/</loc>
-      <lastmod>2020-01-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/machine-learning/</loc>
       <lastmod>2016-12-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
@@ -366,7 +364,7 @@
     <url>
     
       <loc>/tags/motion-planning/</loc>
-      <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+      <lastmod>2015-05-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -377,26 +375,6 @@
     
       <loc>/tags/opencv/</loc>
       <lastmod>2016-12-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/robot-perception/</loc>
-      <lastmod>2018-10-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/trajectory-optimization/</loc>
-      <lastmod>2018-10-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

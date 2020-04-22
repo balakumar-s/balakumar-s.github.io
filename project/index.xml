@@ -7,35 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Balakumar Sundaralingam</copyright>
-    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Robot Perception</title>
-      <link>/project/robot_perception/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <title>Kinematic Planning and Dynamics Inference  for In-Hand Manipulation</title>
+      <link>/project/phd_thesis/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/project/robot_perception/</guid>
-      <description>This project aims to explore perception to aid robot manipulation. Closed loop feedback control for manipulation tasks have been lacking in the real world due to limitations of current perception approaches. Could perception from different sources such as tactile, vision and aural fill in the gaps existing in a single source? As a first step, we worked on building a robust mapping from raw tactile signals to force. This work leveraged neural networks for learning the mapping in a supervised setup.</description>
-    </item>
-    
-    <item>
-      <title>Dexterous Manipulation</title>
-      <link>/project/dexterous_manipulation/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/project/dexterous_manipulation/</guid>
-      <description>Advisor: Prof. Tucker Hermans Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Consider a robot replacing a lightbulb, using a drill or pouring from a mustard bottle. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy.</description>
+      <guid>/project/phd_thesis/</guid>
+      <description>Thesis Advisor: Prof. Tucker Hermans Thesis Committee:  Prof. Tucker Hermans Prof. John Hollerbach Prof. Srikumar Ramalingam Prof. Vivek Srikumar Prof. Kris Hauser  Abstract In-hand manipulation is the skill of changing the state of a grasped object leveraging the dexterity available in a robot&amp;rsquo;s end-effector. To reach the desired state for a grasped object, the robot might need to change existing contacts on the object, impart forces through these contacts to change the object&amp;rsquo;s state while also maintaining a stable grasp on the object.</description>
     </item>
     
     <item>
       <title> Mapping using only laser range finder on Mobile Robot</title>
-      <link>/project/mobile_robot_mapping/</link>
+      <link>/project/ug_thesis/</link>
       <pubDate>Sat, 27 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>/project/mobile_robot_mapping/</guid>
+      <guid>/project/ug_thesis/</guid>
       <description>Contributors: Balakumar Sundaralingam, Sudarsan Balaji, Yaswanth Kodavali.
 Advisor: Prof. Prem S. Abstract Mobile robots employ wheel encoders to generate odometric readings. But the odometric readings from the wheel encoders of the mobile robots are generally erroneous, even in indoor environments. Without proper guiding tools like GPS, it is very hard to localise the robot in each consecutive scan for mapping. To overcome this disadvantage, a generic approach to formulate an error function using wheel encoder readings is followed.</description>
     </item>

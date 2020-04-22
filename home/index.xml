@@ -27,7 +27,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description>I am a Ph.D. candidate at the University of Utah, affiliated to the School of Computing and the Utah Robotics Center, advised by Prof. Tucker Hermans. My current research focuses on enabling robots equipped with dexterous hands to perform manipulation of novel objects (Project Page). My research spans across motion planning via gradient-based trajectory optimization, improving robot perception with learned tactile models, and structured inference for joint parameter &amp;amp; state estimation.</description>
+      <description>I recently received my Ph.D. in Computing (Robotics) from the University of Utah, advised by Prof. Tucker Hermans, and was affiliated to the School of Computing and the Utah Robotics Center. During my Ph.D., I interned in the Seattle Robotics Lab at NVIDIA Research, mentored by Prof. Dieter Fox. I worked with Nathan Ratliff, Ankur Handa, Stan Birchfield, and Byron Boots on projects related to improving robot tactile perception. In the past, I have worked on mobile robots, specifically on mapping with LIDAR and implemented several reactive collision avoidance methods.</description>
     </item>
     
     <item>
@@ -54,27 +54,16 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/code_datasets/</guid>
-      <description>Research Code &amp;amp; Datasets Some of my research involves robots interacting with objects in the real world. I have collected RGB-D, robot state and other sensing available during robot execution for future use. I have made these datasets available along with quick implementations(mostly python) of the main contributions of associated research article.
-           Force Estimation from BioTac Code Dataset Research   In-Grasp Manipulation with Relaxed-Rigidity Code Dataset Research          Robot System Code I am actively involved in developing system level code(mostly C++) for robots ranging from low-level controllers to setting up finite state machines, primarily in ROS.</description>
+      <description>Research Code &amp;amp; Datasets Some of my research involves robots interacting with objects in the real world. I have collected RGB-D, robot state and other sensing available during robot execution for future use. I have made these datasets available along with quick implementations(mostly python) of the main contributions of associated research article. Reach out to me if you are looking for something specific from my research that&amp;rsquo;s not available here and I will share them with you.</description>
     </item>
     
     <item>
-      <title>Research Projects</title>
+      <title>Theses</title>
       <link>/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/projects/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/home/teaching/</guid>
-      <description>I was a teaching assistant at University of Utah for the following courses:
- ME EN 3230: Mechatronics CS 6310: Robotics CS 7320: System Identification for Robotics  I created labs with the Baxter robot for CS 6310 and CS 7320.  Left: Circle Point Analysis to estimate joint axis of rotation Right: Load inertial estimation using wrist mounted force/torque sensor</description>
     </item>
     
     <item>

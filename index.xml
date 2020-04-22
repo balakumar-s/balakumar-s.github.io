@@ -11,36 +11,84 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Learning Continuous 3D Reconstructions for Geometrically Aware Grasping</title>
-      <link>/publication/recon_grasp/</link>
-      <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+      <title>Kinematic Planning and Dynamics Inference  for In-Hand Manipulation</title>
+      <link>/project/phd_thesis/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/recon_grasp/</guid>
+      <guid>/project/phd_thesis/</guid>
+      <description>
+
+&lt;h4 id=&#34;thesis-advisor-prof-tucker-hermans-https-www-cs-utah-edu-thermans&#34;&gt;Thesis Advisor: &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Prof. Tucker Hermans&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&#34;thesis-committee&#34;&gt;Thesis Committee:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Prof. Tucker Hermans&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cs.utah.edu/~jmh/&#34; target=&#34;_blank&#34;&gt;Prof. John Hollerbach&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cs.utah.edu/~srikumar/&#34; target=&#34;_blank&#34;&gt;Prof. Srikumar Ramalingam&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://svivek.com/&#34; target=&#34;_blank&#34;&gt;Prof. Vivek Srikumar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kkhauser.web.illinois.edu/&#34; target=&#34;_blank&#34;&gt;Prof. Kris Hauser&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;In-hand manipulation is the skill of changing the state of a grasped object leveraging the dexterity available in a robot&amp;rsquo;s end-effector.  To reach the desired state for a grasped object, the robot might need to change existing contacts on the object, impart forces through these contacts to change the object&amp;rsquo;s state while also maintaining a stable grasp on the object.&lt;/p&gt;
+
+&lt;p&gt;In-hand manipulation is challenging in the unstructured, real world as we do not accurately know the object&amp;rsquo;s dynamics or the dynamics model governing object-robot interactions. Lack of sensing at the contacts also makes perception of these interactions hard to observe and react. These challenges have limited analytic model based in-hand manipulation to lab environments with knowledge of the object&amp;rsquo;s dynamics or with hand tuned trajectory specific controllers. Learning based methods have shown to only learn object specific or trajectory specific models, thereby reducing their use in the real world.&lt;/p&gt;
+
+&lt;p&gt;In this thesis, we explore strategies to enable real-world in-hand manipulation of novel objects. We tackle some of the key bottlenecks preventing in-hand manipulation in the unstructured, real world. First, we explore trajectory optimization with kinematic constraints to perform in-grasp manipulation of novel objects without requiring extensive object dynamics knowledge. We extend this in-grasp optimization to include fingertip relocation and explore planning via alternating optimization. To improve perception at contacts, we learn a robust force estimation model for a biologically inspired fingertip tactile sensor leveraging large scale data collection with multiple robots. Finally, we formulate multi-contact dynamics as a physically consistent factor graph and perform inference to estimate object dynamics in-hand using the developed force estimation model. Our results show that dynamics of novel objects can be recovered from tactile perception at fingertips, while being kinematically tracked using our kinematic in-grasp constraints. Additionally, we develop benchmarking metrics and protocols to assess a robot’s in-hand manipulation capabilities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>In-Hand Object-Dynamics Inference using Tactile Fingertips</title>
+      <link>/publication/in_hand_dynamics/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/in_hand_dynamics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Benchmarking In-Hand Manipulation (*equal contribution)</title>
-      <link>/publication/benchmarking_in_hand/</link>
+      <link>/publication/bih/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/benchmarking_in_hand/</guid>
+      <guid>/publication/bih/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Robust Learning of Tactile Force Estimation through Robot Interaction (Best Manipulation Paper Finalist)</title>
-      <link>/publication/tactileforce_icra/</link>
-      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      <title>Learning Continuous 3D Reconstructions for Geometrically Aware Grasping</title>
+      <link>/publication/merwe_grasp/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/tactileforce_icra/</guid>
+      <guid>/publication/merwe_grasp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Joint inference of kinematic and force trajectories with visuo-tactile sensing</title>
+      <title>Multi-Fingered Grasp Planning via Inference in Deep Neural Networks</title>
+      <link>/publication/lu_grasp_ram/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/lu_grasp_ram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Relaxed-Rigidity Constraints: Kinematic Trajectory Optimization and Collision Avoidance for In-Grasp Manipulation</title>
+      <link>/publication/in_grasp_auro/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/in_grasp_auro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;Joint Inference of Kinematic and Force Trajectories with Visuo-Tactile Sensing&#34;</title>
       <link>/publication/lambert_vistac/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/publication/lambert_vistac/</guid>
       <description></description>
@@ -48,62 +96,37 @@
     
     <item>
       <title>Learning Latent Space Dynamics for Tactile Servoing</title>
-      <link>/publication/sutanto_taclat/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <link>/publication/sutanto_latent/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/sutanto_taclat/</guid>
+      <guid>/publication/sutanto_latent/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Relaxed-Rigidity Constraints: Kinematic Trajectory Optimization and Collision Avoidance for In-Grasp Manipulation</title>
-      <link>/publication/in_grasp_auro/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Robust Learning of Tactile Force Estimation through Robot Interaction (__Best Manipulation Paper Award Finalist__)</title>
+      <link>/publication/tactileforce_icra/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/in_grasp_auro/</guid>
+      <guid>/publication/tactileforce_icra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects</title>
       <link>/publication/tremblay_dope/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/tremblay_dope/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Robot Perception</title>
-      <link>/project/robot_perception/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/project/robot_perception/</guid>
-      <description>&lt;p&gt;This project aims to explore perception to aid robot manipulation. Closed loop feedback control for manipulation tasks have been lacking in the real world due to limitations of current perception approaches. Could perception from different sources such as tactile, vision and aural fill in the gaps existing in a single source?
-As a first step, we worked on building a robust mapping from raw tactile signals to force. This work leveraged neural networks for learning the mapping in a supervised setup. Ground truth force was collected from multiple sources for robust force estimation. One source of force was inferred from object motion through planar pushing by modelling the pushing dynamics as a system of particles. A video describing the approach and the results is below
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/uH7ffQ4Z3yU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Geometric In-Hand Regrasp Planning: Alternating Optimization of Finger Gaits and In-Grasp Manipulation</title>
       <link>/publication/regrasp_icra/</link>
-      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/regrasp_icra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Planning Multi-Fingered Grasps as Probabilistic Inference in a Learned Deep Network</title>
-      <link>/publication/lu_grasp/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/lu_grasp/</guid>
       <description></description>
     </item>
     
@@ -117,33 +140,12 @@ As a first step, we worked on building a robust mapping from raw tactile signals
     </item>
     
     <item>
-      <title>Dexterous Manipulation</title>
-      <link>/project/dexterous_manipulation/</link>
+      <title>Planning Multi-Fingered Grasps as Probabilistic Inference in a Learned Deep Network</title>
+      <link>/publication/lu_grasp_isrr/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/dexterous_manipulation/</guid>
-      <description>
-
-&lt;h4 id=&#34;advisor-prof-tucker-hermans-https-www-cs-utah-edu-thermans&#34;&gt;Advisor: &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Prof. Tucker Hermans&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;Robots with multi-fingered hands and human-like tactile sensing allow for complex interactions with the environmnet. Consider a robot replacing a lightbulb, using a drill or pouring from a mustard bottle. These tasks while trivial for humans, remain challenging for robots. Current approaches to dexterous manipulation with robotic systems either require complete analytic models of the environment or extensive interaction with the object to learn a policy. This project focuses on performing dexterous manipulation with minimal information about the object. I am intrigued by the complexity present in this problem involving multiple contacts and am actively exploring this research problem at the &lt;a href=&#34;https://robot-learning.cs.utah.edu/&#34; target=&#34;_blank&#34;&gt;LL4MA lab&lt;/a&gt;, advised by &lt;a href=&#34;https://www.cs.utah.edu/~thermans&#34; target=&#34;_blank&#34;&gt;Dr. Tucker Hermans&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;As part of this project, We are exploring the problem of reposing a grasped object with respect to the palm using the dexterity in the fingers. We explored performing in-grasp manipulation with a multi-fingered robotic hand. In-grasp manipulation is the problem of moving an object with reference to the palm from an initial pose to a goal pose without breaking or making contacts. We formulated a trajectory optimization problem with cost terms to perform in-grasp manipulation with constraints on the robot&amp;rsquo;s joint limits. The cost terms attempt to move the object to the desired pose while trying to maintain the initial grasp. Our approach being purely kinematic allowed for performing in-grasp manipulation of novel objects. This work was presented at RSS 2017. Some experimental results are below.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Gn-yMRjbmPE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;We extended our in-grasp manipulation planner to allow for larger pose changes by incorporating fingertip relocation. This allows us to plan joint motions for moving from an initial fingertip grasp to a desired fingertip grasp. We formulated an alternating optimization scheme to optimize switching contact points on the grasped object through fingertip relocation and object reposing through in-grasp manipulation. A brief overview is in the video below.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/4fRHcLEQQjo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
+      <guid>/publication/lu_grasp_isrr/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -741,203 +743,6 @@ as vector polar histogram might be feasible.&lt;/p&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/Z53nglbssII&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-</description>
-    </item>
-    
-    <item>
-      <title>Optic Flow based  Collision Avoidance for holonomic mobile robots</title>
-      <link>/post/optic_flow/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
-      
-      <guid>/post/optic_flow/</guid>
-      <description>
-
-&lt;h4 id=&#34;contributors&#34;&gt;Contributors:&lt;/h4&gt;
-
-&lt;p&gt;Balakumar Sundaralingam.&lt;/p&gt;
-
-&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
-
-&lt;p&gt;Optical flow is one of the many ways to detect motion in a video stream.
-Conversely it can be used to interact with the real 3d world. Exploring
-this possibility motivated me to see if optical flow from a single
-camera is good for collision avoidance. The base idea is to have the
-environment static and the camera moving. This is discussed in the below
-sections.&lt;/p&gt;
-
-&lt;h1 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h1&gt;
-
-&lt;p&gt;An holonomic ground robot which is equipped with a single camera facing
-in the forward direction should go forward and in the presence of
-obstacles, the robot should avoid collisions and continue forward. The
-collision avoidance must be done only using the on-board camera. The
-following assumptions are made pertaining to the problem:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;The environment is fairly simple mainly made of
-non-textured surfaces.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The obstacles in the environment are highly textured.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The environment is static and the robot is the only moving object.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&#34;approach&#34;&gt;Approach&lt;/h1&gt;
-
-&lt;p&gt;To avoid obstacles with only one camera, many methods are present but to
-keep it related to the topics taught in class, Optical flow is chosen.
-Optical flow is detects the direction of motion in a set of images. This
-is the case if the camera is static and there are dynamic objects in the
-scene. Conversely if the camera is dynamic and the environment is
-static, there will be flow vectors throughout the scene. Now in this
-case, we know that objects close to the camera will have a larger flow
-vector compared to objects far away. This can be seen in
-fig.1. This property is used to avoid obstacles.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;/img/course_proj/cv_optic_flow.gif&#34; style=&#34;height:200px;&#34;&gt;
-&lt;figcaption&gt;The test here uses the optical flow method taught in class lectures
-and is a version of Lucas Kanade method of optical flow. The red points
-are flow vectors having magnitude greater than a threshold.&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The optical flow approach used here is similar to Project 4. The
-difference being in computing only for pixels which are detected as
-features. Initially, I used the basic approach taught in project 4, but
-it was very slow as optical flow was being computed for every pixel. To
-make it real-time, the code should run at least at 20Hz. Optical flow
-will be faster if it is only used on extracted features. To do this, I
-had to implement a feature extraction algorithm. Due to lack of
-knowledge in feature extraction, I used an OpenCV function called
-“goodFeaturesToTrack” to detect features. Once the features were
-detected, the following equations are used:
-$$x_{derivative}=\frac{image_{1}(i-1,j)-image_{1}(i+1,j)}{2}$$
-$$y_{derivative}=\frac{image_{1}(i,j-1)-image_{1}(i,j+1)}{2}$$
-$$time_{derivative}=image_{1}(i,j)-image_{2}(i,j)$$ where $image_{1}$
-and $image_{2}$ are gaussian smoothed consequent frames.i,j are row and
-column position of the pixels. The above values are used to compute the
-flow vector using the below formula: $$v=-(A^{T}A)^{-1}A^{T}b$$ where A
-is a Nx2 matrix with columns as x and y derivatives of the chosen window
-size(NxN).b is a Nx1 matrix of time derivatives of the chosen window
-size.v is a 2x1 matrix having velocity components along x and y
-directions.&lt;/p&gt;
-
-&lt;p&gt;With the approach for computing optic flow in a set of images explained,
-the next step is to use this method to do collision avoidance.
-&lt;figure&gt;
-&lt;img src=&#34;/img/course_proj/cv_chart.png&#34; style=&#34;height:200px;&#34;&gt;
-&lt;figcaption&gt;The input from camera is split into left and right halves. Optical
-flow is used to compute the maximum vectors from each side and sent to a
-control algorithm which decides the robot motion based on the maximum
-vectors.&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;The maximum vectors from left and right halves are checked with a
-threshold vector to check if any obstacle is close to the robot and if
-the robot is on a collision course. The robot motion is chosen by the
-logic seen in the below table. So the robot is in constant motion
-as it avoids obstacles. When both halves have velocity vectors greater
-than the threshold, the robot will halt, but when it halts, the vectors
-become zero and hence the robot keeps oscillating.&lt;/p&gt;
-
-&lt;p&gt;&lt;table&gt;
-&lt;caption&gt;Robot direction table&lt;/caption&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Greater Than Threshold vector&lt;/strong&gt;&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Robot direction of motion&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;None&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Forward&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Left half Maximum vector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Go right&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Right half Maximum vector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Go Left&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Both halves’ Maximum vectors&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Stop&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;implementation&#34;&gt;Implementation&lt;/h1&gt;
-
-&lt;p&gt;The robot has to perform computations in real-time and hence OpenCV
-libraries are used. To compute matrices for optical flow, the eigen
-library is used. The processing is all done on-board the robot in a ARM
-based single board computer called ODROID-U3. It runs a custom version
-of linux. The Robotics Operating System (ROS) is used as the
-framework for easy implementation. With all the optimizations done to
-the best of my knowledge, the optical flow algorithm ran at 50Hz.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;/img/course_proj/cv_robot.png&#34; style=&#34;height:200px;&#34;&gt;
-&lt;figcaption&gt;The robot is equipped with a RGB color camera, on-board computer
-which takes the camera input and does optic flow and controls the
-motors. The mecannum wheels allow the robot to have holonomic
-capabilities and so the robot can move sideways.&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&#34;results-and-discussion&#34;&gt;Results and Discussion&lt;/h1&gt;
-
-&lt;p&gt;The approach is tested in a long corridor with minimum textures.The
-robot was run in two different setups. The first run is in the presence of two obstacles and the robot
-moves left and right to avoid collision as seen below:
-&lt;figure&gt;
-&lt;img src=&#34;/img/course_proj/cv_res_1.png&#34; style=&#34;height:200px;&#34;&gt;
-&lt;figcaption&gt; The robot sees optic flow greater than the threshold in the right
-half of the camera as seen by blue vectors in the right half and so the
-robot moves to the left as shown by the red vector.&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;/img/course_proj/cv_res_2.png&#34; style=&#34;height:200px;&#34;&gt;
-&lt;figcaption&gt;The robot sees optic flow greater than the threshold in the left half
-of the camera as seen by blue vectors in the left half and so the robot
-moves to the right as shown by the red vector.&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
- The next run is in the presence of an obstacle which is in both halves. This case would make the robot halt and oscillate as optic flow is computed only when the robot is in motion as seen below.
-&lt;figure&gt;
-&lt;img src=&#34;/img/course_proj/cv_res_3.png&#34; style=&#34;height:200px;&#34;&gt;
-&lt;figcaption&gt; The robot sees optic flow greater than the threshold in both the
-right half and left half of the camera as seen by blue vectors and so
-the robot stays in place but when is static, the flow vectors disappear
-and hence the robot oscillates, this can be seen in the submitted
-video.&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&#34;code-and-video&#34;&gt;Code and Video&lt;/h1&gt;
-
-&lt;p&gt;The code is done in C++ with eigen and OpenCV libraries. The following
-inbuilt functions from OpenCV are used: goodFeaturesToTrack(to find
-features) and GaussianBlur (to blur the image for optical flow
-computation). No functions from OpenCV for Optical flow was used. The
-Optical flow code was done manually. The code compiles in Linux and
-requires ROS hydro or newer frameworks to work.&lt;/p&gt;
-
-&lt;h5 id=&#34;source-code-git-https-github-com-balakumar-s-opticflow-collision-avoidance-git&#34;&gt;Source Code:&lt;a href=&#34;https://github.com/balakumar-s/opticflow_collision_avoidance.git&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt;&lt;/h5&gt;
-
-&lt;p&gt;In the video below, the stream from the on-board camera is lagging due to low
-bandwidth of the wireless network and is not related to the algorithm.
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/MvWAp7sOZlA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
-
-&lt;p&gt;Thus it is seen that optical flow can be used to do collision avoidance
-if there is enough texture in the obstacles. This can be expanded to use
-with cheap collision avoidance systems such as in toys.&lt;/p&gt;
 </description>
     </item>
     
