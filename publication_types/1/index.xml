@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>&#34;Joint Inference of Kinematic and Force Trajectories with Visuo-Tactile Sensing&#34;</title>
+      <title>Joint Inference of Kinematic and Force Trajectories with Visuo-Tactile Sensing</title>
       <link>/publication/lambert_vistac/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -67,20 +67,20 @@
     </item>
     
     <item>
+      <title>Planning Multi-Fingered Grasps as Probabilistic Inference in a Learned Deep Network</title>
+      <link>/publication/lu_grasp_isrr/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/lu_grasp_isrr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Relaxed-Rigidity Constraints: In-Grasp Manipulation using Purely Kinematic Trajectory Optimization</title>
       <link>/publication/in_grasp_rss/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/in_grasp_rss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Planning Multi-Fingered Grasps as Probabilistic Inference in a Learned Deep Network</title>
-      <link>/publication/lu_grasp_isrr/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/lu_grasp_isrr/</guid>
       <description></description>
     </item>
     
