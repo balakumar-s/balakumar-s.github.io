@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Balakumar Sundaralingam</copyright>
-    <lastBuildDate>Fri, 01 May 2015 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2015 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/mobile-robot/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Artificial Potential Field Collision Avoidance for holonomic mobile robots</title>
       <link>/post/collision_avoidance/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
       
       <guid>/post/collision_avoidance/</guid>
       <description>Contributors: Balakumar Sundaralingam, Rohith Prasad.
@@ -25,7 +25,7 @@ Introduction The use of tele-operated robots in search and rescue, environment m
     <item>
       <title>Optic Flow based  Collision Avoidance for holonomic mobile robots</title>
       <link>/post/optic_flow/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
       
       <guid>/post/optic_flow/</guid>
       <description>Contributors: Balakumar Sundaralingam.
@@ -35,7 +35,7 @@ Introduction Optical flow is one of the many ways to detect motion in a video st
     <item>
       <title>Mobile robot simulation in Gazebo</title>
       <link>/post/mobile_robot_simulation/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0700</pubDate>
       
       <guid>/post/mobile_robot_simulation/</guid>
       <description>To get to speed with ROS and Gazebo, I created the Pioneer 3AT robot from mesh files. Learning about simulating the robot&amp;rsquo;s drive motors was interesting. This code is available in git. Here is a video of the simulation.   Out of curiosity, I also setup hector slam to generate a map of the environment.   </description>

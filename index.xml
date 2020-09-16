@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Balakumar Sundaralingam</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -151,7 +151,7 @@
     <item>
       <title>Using Push locations to Classify and predict Object Dynamics</title>
       <link>/post/ml_proj/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0800</pubDate>
       
       <guid>/post/ml_proj/</guid>
       <description>
@@ -543,7 +543,7 @@ and it might also be non-linear. For a 2000 dataset, the accuracy of
     <item>
       <title>Artificial Potential Field Collision Avoidance for holonomic mobile robots</title>
       <link>/post/collision_avoidance/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
       
       <guid>/post/collision_avoidance/</guid>
       <description>
