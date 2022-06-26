@@ -5,8 +5,62 @@
     
     <url>
     
-      <loc>/project/phd_thesis/</loc>
-      <lastmod>2020-03-23T00:00:00+00:00</lastmod>
+      <loc>/publication/robolang/</loc>
+      <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/defgraspsim/</loc>
+      <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/fabrics/</loc>
+      <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/handoversim/</loc>
+      <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/concept_learning/</loc>
+      <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/handover_mpc/</loc>
+      <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/storm/</loc>
+      <lastmod>2022-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -15,7 +69,43 @@
     <url>
     
       <loc>/publication/in_hand_dynamics/</loc>
-      <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/biotac_signal/</loc>
+      <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/jailer/</loc>
+      <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/biotac_sim/</loc>
+      <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/phd_thesis/</loc>
+      <lastmod>2020-03-23T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -195,7 +285,7 @@
     <url>
     
       <loc>/publication_types/1/</loc>
-      <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2022-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -205,17 +295,7 @@
     <url>
     
       <loc>/publication_types/2/</loc>
-      <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/3/</loc>
-      <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+      <lastmod>2022-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -284,7 +364,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2022-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

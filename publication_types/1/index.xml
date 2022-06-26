@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Balakumar Sundaralingam</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Correcting Robot Plans with Natural Language Feedback</title>
+      <link>/publication/robolang/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/robolang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HandoverSim: A Simulation Framework and Benchmark for Human-to-Robot Object Ha2ndovers</title>
+      <link>/publication/handoversim/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/handoversim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model Predictive Control for Fluid Human-to-Robot Handovers(*equal contribution)</title>
+      <link>/publication/handover_mpc/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/handover_mpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STORM: An Integrated Framework for Fast Joint-Space Model-Predictive Control for Reactive Manipulation (__Selected for Oral Presentation (6.5% acceptance rate)__)</title>
+      <link>/publication/storm/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/storm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Space Control via Deep Reinforcement Learning</title>
+      <link>/publication/jailer/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/jailer/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learning Continuous 3D Reconstructions for Geometrically Aware Grasping</title>

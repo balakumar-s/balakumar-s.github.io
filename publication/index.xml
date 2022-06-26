@@ -13,11 +13,101 @@
     
     
     <item>
+      <title>Correcting Robot Plans with Natural Language Feedback</title>
+      <link>/publication/robolang/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/robolang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DefGraspSim: Physics-based simulation of grasp outcomes for 3D deformable objects</title>
+      <link>/publication/defgraspsim/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/defgraspsim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geometric Fabrics: Generalizing Classical Mechanics to Capture the Physics of Behavior</title>
+      <link>/publication/fabrics/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/fabrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HandoverSim: A Simulation Framework and Benchmark for Human-to-Robot Object Ha2ndovers</title>
+      <link>/publication/handoversim/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/handoversim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Perceptual Concepts by Bootstrapping from Human Queries</title>
+      <link>/publication/concept_learning/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/concept_learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model Predictive Control for Fluid Human-to-Robot Handovers(*equal contribution)</title>
+      <link>/publication/handover_mpc/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/handover_mpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STORM: An Integrated Framework for Fast Joint-Space Model-Predictive Control for Reactive Manipulation (__Selected for Oral Presentation (6.5% acceptance rate)__)</title>
+      <link>/publication/storm/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/storm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>In-Hand Object-Dynamics Inference using Tactile Fingertips</title>
       <link>/publication/in_hand_dynamics/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/publication/in_hand_dynamics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interpreting and predicting tactile signals for the SynTouch BioTac</title>
+      <link>/publication/biotac_signal/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/biotac_signal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Space Control via Deep Reinforcement Learning</title>
+      <link>/publication/jailer/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/jailer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sim-to-Real for Robotic Tactile Sensing via Physics-Based Simulation and Learned Latent Projections (*equal contribution)</title>
+      <link>/publication/biotac_sim/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/biotac_sim/</guid>
       <description></description>
     </item>
     
