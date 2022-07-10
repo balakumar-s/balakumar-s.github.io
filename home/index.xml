@@ -6,7 +6,7 @@
     <description>Recent content in Homes on Balakumar Sundaralingam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 Balakumar Sundaralingam</copyright>
+    <copyright>&amp;copy; 2022 Balakumar Sundaralingam</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
@@ -27,7 +27,8 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description>I am a Research Scientist in the Seattle Robotics Lab at NVIDIA Research. I received my Ph.D. in Computing (Robotics) from the University of Utah under the supervision of Prof. Tucker Hermans. My Ph.D. research focused on planning and tactile perception for in-hand manipulation leveraging trajectory optimization, learned models, and structured inference. In the past, I have worked on mobile robots, specifically on mapping with LIDAR and reactive collision avoidance.</description>
+      <description>I am a Senior Research Scientist in the Seattle Robotics Lab at NVIDIA Research with Prof. Dieter Fox. My research interests are in enabling robots to fluidly navigate and interact in unstructured environments while sharing the space with humans. My work involves combining perception, machine learning, numerical optimization, control theory, and robot software-hardware interfaces.
+Some of my recent research efforts explore the application of sampling based optimization for reactive manipulator control.</description>
     </item>
     
     <item>
@@ -46,15 +47,6 @@
       
       <guid>/home/publications/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/home/code_datasets/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/home/code_datasets/</guid>
-      <description>Research Code &amp;amp; Datasets Some of my research involves robots interacting with objects in the real world. I have collected RGB-D, robot state and other sensing available during robot execution for future use. I have made these datasets available along with quick implementations(mostly python) of the main contributions of associated research article. Reach out to me if you are looking for something specific from my research that&amp;rsquo;s not available here and I will share them with you.</description>
     </item>
     
     <item>
