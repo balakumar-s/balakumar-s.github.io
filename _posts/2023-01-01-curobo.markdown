@@ -1,0 +1,11 @@
+---
+layout: post
+title : "CuRobo: Parallelized Collision-Free Robot Motion Generation"
+date : 2023-01-01
+authors : <strong>B. Sundaralingam</strong>, S. Hari, A. Fishman, C. Garrett, K. Van Wyk, V. Blukis, A. Millane, H. Oleynikova, A. Handa, F. Ramos, N. Ratliff, D. Fox
+venue : "2023 IEEE International Conference on Robotics and Automation (ICRA)"
+arxiv : "https://arxiv.org/abs/2310.17274"
+category : research
+website : https://curobo.org
+image : "headers/franka_curobo.gif"
+---

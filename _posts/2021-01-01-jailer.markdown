@@ -1,0 +1,11 @@
+---
+layout: post
+title : "Joint Space Control via Deep Reinforcement Learning"
+date : 2021-01-01
+authors : V. Kumar, D. Hoeller, <strong>B. Sundaralingam</strong>, J. Tremblay, S. Birchfield
+venue : "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+arxiv : "https://arxiv.org/abs/2011.06332"
+category : research
+video : "https://www.youtube.com/watch?v=6BHoaBqApBo"
+image : "headers/jailer_intro.png"
+---

@@ -1,0 +1,11 @@
+---
+layout: post
+title : "Correcting Robot Plans with Natural Language Feedback"
+date : 2022-01-01
+authors : P. Sharma, <strong>B. Sundaralingam</strong>, V. Blukis, C. Paxton, T. Hermans, A. Torralba, J. Andreas, D. Fox
+venue : "Proceedings of Robotics: Science and Systems"
+arxiv : "https://arxiv.org/abs/2204.05186"
+category : research
+website : https://sites.google.com/view/language-costs
+image : "headers/language_mpc.png"
+---

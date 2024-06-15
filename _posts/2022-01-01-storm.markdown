@@ -1,0 +1,13 @@
+---
+layout: post
+title : "STORM: An Integrated Framework for Fast Joint-Space Model-Predictive Control for Reactive Manipulation"
+date : 2022-01-01
+authors : M. Bhardwaj, <strong>B. Sundaralingam</strong>, A. Mousavian, N. Ratliff, D. Fox, F. Ramos, B. Boots
+venue : "Proceedings of the 5th Conference on Robot Learning"
+arxiv : "https://arxiv.org/abs/2104.13542"
+category : research
+website : https://sites.google.com/view/manipulation-mpc
+image : "headers/ball_balancing.gif"
+---
+ 
+<span style="color:red"> Selected for Oral Presentation (6.5% acceptance rate) </span>
