@@ -8,5 +8,5 @@ arxiv : "https://arxiv.org/abs/2204.00134"
 category : research
 video : "https://www.youtube.com/watch?v=Nawh6If-gK0"
 website : https://sites.google.com/nvidia.com/mpc-for-handover
-image : "headers/mpc_handover_header.png"
+image : "headers/handover_mpc.gif"
 ---
