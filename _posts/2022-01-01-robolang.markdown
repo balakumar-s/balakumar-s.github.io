@@ -7,5 +7,5 @@ venue : "Proceedings of Robotics: Science and Systems"
 arxiv : "https://arxiv.org/abs/2204.05186"
 category : research
 website : https://sites.google.com/view/language-costs
-image : "headers/language_mpc.png"
+image : "headers/language_mpc.gif"
 ---
