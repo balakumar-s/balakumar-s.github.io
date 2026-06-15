@@ -1,0 +1,13 @@
+---
+layout: post
+title : "cuRoboV2: Dynamics-Aware Motion Generation with Depth-Fused Distance Fields for High-DoF Robots"
+date : 2026-03-05
+authors : <strong>B. Sundaralingam</strong>, A. Murali, S. Birchfield
+venue : "arXiv preprint"
+arxiv : "https://arxiv.org/abs/2603.05493"
+category : research
+website : https://nvlabs.github.io/curobo/latest/
+image : "headers/curobov2_tsdf.webm"
+---
+
+cuRoboV2 extends GPU-accelerated motion generation with dynamics-aware trajectory optimization, dense depth-fused distance fields, and scalable whole-body computation. The system targets safe, feasible, reactive motion generation across manipulators and high-DoF humanoids.

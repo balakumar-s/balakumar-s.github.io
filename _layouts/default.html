@@ -34,16 +34,14 @@
               <h1>
                 Balakumar Sundaralingam
               </h1>
-              <p>I am a Senior Research Scientist at <a href="https://research.nvidia.com/labs/lpr/" target="_blank">NVIDIA Learning and Perception Research Group</a> led by <a href="https://jankautz.com/" target=_blank">Dr. Jan Kautz</a>. My research interests are in enabling robots to navigate and interact in unstructured environments. This includes inventing new techniques for robots, combining perception, machine learning, numerical optimization, and control theory. I also focus on efficient and practical implementation of invented techniques in modern robotic systems. 
+              <p>I am a Staff Research Scientist at <a href="https://research.nvidia.com/labs/lpr/" target="_blank">NVIDIA Research</a>. My research focuses on building robotics algorithms that are robust enough for broad adoption in real systems, combining numerical optimization, control, perception, machine learning, and CUDA-accelerated computing. I am the lead architect and inventor behind <a href="https://nvlabs.github.io/curobo/latest/">cuRobo</a>, a broadly adopted open-source robot motion-generation library, and have authored 35+ peer-reviewed publications and 20+ patents/patent applications in robotics.
               </p>
               
               <p>
-              An example of my work is <a href="https://curobo.org">cuRobo</a>, which formulates motion planning as a trajectory optimization problem and uses parallel compute on GPU to solve in 30ms. This work also leverages <a href="https://github.com/nvidia-isaac/nvblox">nvblox</a> for collision avoidance from depth cameras. This research has been integrated into MoveIt as a planner plugin, available at <a href="https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_cumotion/index.html">Isaac ROS cuMotion</a>.
+              My recent work centers on real-time GPU-accelerated motion generation for manipulation. Starting from cuRobo, I have focused on formulating robot motion generation as a practical optimization problem that can run at interactive rates on modern GPUs. This line of work now extends to cuRoboV2, which adds dynamics-aware whole-body optimization, depth-fused TSDF/ESDF collision checking, and scalable motion generation for high-DoF robots.
               </p>
 
-              <p>Some of my other research efforts explored the application of sampling-based optimization for reactive manipulator control. We developed a framework (<a href="https://github.com/NVlabs/storm">STORM</a>) that enables optimization over non-differentiable cost terms leveraging MPPI, a sampling based optimization technique. Our framework has enabled robots to reactively avoid obstacles (<a href="https://github.com/NVlabs/storm">CoRL 2021</a>), move around humans to grasp objects (<a href="https://sites.google.com/nvidia.com/mpc-for-handover">ICRA 2022</a>), and also correct its behavior based on human language feedback (<a href="https://sites.google.com/view/language-costs">RSS 2022</a>).</p>
-
-              <p>I received my Ph.D. in Computing (Robotics) from the University of Utah under the supervision of Prof. Tucker Hermans. My Ph.D. research focused on planning and tactile perception for in-hand manipulation leveraging <a href="https://roboticsproceedings.org/rss13/p15.html">trajectory optimization</a>, <a href="https://sites.google.com/view/tactile-force">learned models</a>, and <a href="https://sites.google.com/view/tactile-obj-dynamics">structured inference</a>. In the past, I have worked on mobile robots,  including mapping with LIDAR and reactive collision avoidance. I have also built robotic systems ranging from mobile robots to dexterous manipulation systems.</p>
+              <p>I also work on robot learning and control methods that connect learned models with optimization-based robot behavior, including value-guided MPC for grasping, diffusion-based planning and grasp generation, language-guided robot correction, and visuo-tactile manipulation. I received my Ph.D. in Computing (Robotics) from the University of Utah under the supervision of <a href="https://www.cs.utah.edu/~thermans/">Prof. Tucker Hermans</a>, where my research focused on planning and tactile perception for dexterous in-hand manipulation.</p>
 
               <p style="text-align:center">
                 <a href="https://www.linkedin.com/in/balakumar-s/"> LinkedIn </a>  &nbsp;/&nbsp;
@@ -75,7 +73,14 @@
           {% if cat == 'research' %}
           <tr>
             <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
+              {% assign image_ext = post.image | split: "." | last | downcase %}
+              {% if image_ext == "webm" or image_ext == "mp4" %}
+              <video autoplay loop muted playsinline preload="metadata" aria-label="project video" style="width:100%; height:auto; max-width:100%;">
+                <source src="/{{post.image}}" type="video/{{image_ext}}">
+              </video>
+              {% else %}
               <img src="/{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              {% endif %}
             </td>
             <td style="padding:2.5%;width:60%;vertical-align:top">
               <h3>{{post.title}}</h3>
@@ -135,4 +140,3 @@
 </body>
 
 </html>
-

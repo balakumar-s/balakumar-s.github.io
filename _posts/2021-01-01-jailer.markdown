@@ -9,3 +9,5 @@ category : research
 video : "https://www.youtube.com/watch?v=6BHoaBqApBo"
 image : "headers/jailer_intro.png"
 ---
+
+This work studies joint-space robot control with deep reinforcement learning, learning policies that map directly to low-level robot actions. The project explores how learned controllers can produce smooth actions while also reaching within cm precision across the robot's workspace.

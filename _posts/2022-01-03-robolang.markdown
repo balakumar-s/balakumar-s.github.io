@@ -7,5 +7,7 @@ venue : "Proceedings of Robotics: Science and Systems"
 arxiv : "https://arxiv.org/abs/2204.05186"
 category : research
 website : https://sites.google.com/view/language-costs
-image : "headers/language_mpc.gif"
+image : "headers/language_mpc.webm"
 ---
+
+This project enables users to correct robot plans with natural language feedback by translating instructions into updates to the robot's planning costs. The approach connects language understanding with trajectory optimization so robots can adjust behavior without task-specific reprogramming.

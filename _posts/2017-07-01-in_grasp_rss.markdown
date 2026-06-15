@@ -7,5 +7,7 @@ venue : "Proceedings of Robotics: Science and Systems"
 category : research
 video : "https://www.youtube.com/watch?v=Gn-yMRjbmPE"
 website : https://robot-learning.cs.utah.edu/project/in_hand_manipulation
-image : "headers/in_grasp.gif"
+image : "headers/in_grasp.webm"
 ---
+
+We formulate in-grasp object reposing as a purely kinematic trajectory optimization problem, enabling multi-fingered hands to reposition unknown objects without an object dynamics model. The approach alternates between finger gaiting and object motion to produce feasible dexterous manipulation plans.

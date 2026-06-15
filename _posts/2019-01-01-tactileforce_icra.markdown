@@ -9,7 +9,8 @@ category : research
 code : "https://github.com/balakumar-s/biotac_force_net"
 video : "https://www.youtube.com/watch?v=uH7ffQ4Z3yU"
 website : https://sites.google.com/view/tactile-force
-image : "headers/place_tactile_force.gif"
+image : "headers/place_tactile_force.webm"
 ---
- 
+
+We introduced a robot-interaction data collection strategy for tactile sensors and a geometry-aware neural model for estimating contact forces from BioTac signals. The resulting system improved small-force estimation for manipulation-relevant contacts.<br>
 <span style="color:red"> Best Manipulation Paper Award Finalist </span>

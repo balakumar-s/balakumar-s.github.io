@@ -1,0 +1,13 @@
+---
+layout: post
+title : "VT-Refine: Learning Bimanual Assembly with Visuo-Tactile Feedback via Simulation Fine-Tuning"
+date : 2025-10-16
+authors : B. Huang, J. Xu, I. Akinola, W. Yang, <strong>B. Sundaralingam</strong>, R. O'Flaherty, D. Fox, X. Wang, A. Mousavian, Y. Chao, Y. Li
+venue : "9th Annual Conference on Robot Learning (CoRL)"
+arxiv : "https://arxiv.org/abs/2510.14930"
+category : research
+website : https://binghao-huang.github.io/vt_refine/
+image : "headers/vt_refine.webm"
+---
+
+VT-Refine learns contact-rich bimanual assembly policies from visual and tactile feedback, then improves them through simulation fine-tuning. The work combines real demonstrations, tactile simulation, and reinforcement learning to improve robustness for precise assembly tasks.

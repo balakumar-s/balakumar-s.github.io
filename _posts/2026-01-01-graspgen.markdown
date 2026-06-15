@@ -1,0 +1,13 @@
+---
+layout: post
+title : "GraspGen: A Diffusion-Based Framework for 6-DoF Grasping with On-Generator Training"
+date : 2026-01-01
+authors : A. Murali, <strong>B. Sundaralingam</strong>, Y. Chao, W. Yuan, J. Yamada, M. Carlson, F. Ramos, S. Birchfield, D. Fox, C. Eppner
+venue : "2026 IEEE International Conference on Robotics and Automation (ICRA)"
+arxiv : "https://arxiv.org/abs/2507.13097"
+category : research
+website : https://graspgen.github.io/
+image : "headers/graspgen.webm"
+---
+
+GraspGen models 6-DoF grasp generation as a diffusion process and trains a discriminator directly on generated grasps. The framework scales grasp learning across objects and grippers, improving generalization for simulation benchmarks and real robot grasping.

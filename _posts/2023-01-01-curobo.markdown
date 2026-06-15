@@ -6,6 +6,8 @@ authors : <strong>B. Sundaralingam</strong>, S. Hari, A. Fishman, C. Garrett, K.
 venue : "2023 IEEE International Conference on Robotics and Automation (ICRA)"
 arxiv : "https://arxiv.org/abs/2310.17274"
 category : research
-website : https://curobo.org
-image : "headers/franka_curobo.gif"
+website : https://nvlabs.github.io/curobo/v0.7.6/
+image : "headers/franka_curobo.webm"
 ---
+
+cuRobo formulates robot motion generation as massively parallel trajectory optimization on GPUs, producing fast, smooth, collision-free motions for manipulation.

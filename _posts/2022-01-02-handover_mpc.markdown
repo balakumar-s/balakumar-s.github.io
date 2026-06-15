@@ -8,5 +8,7 @@ arxiv : "https://arxiv.org/abs/2204.00134"
 category : research
 video : "https://www.youtube.com/watch?v=Nawh6If-gK0"
 website : https://sites.google.com/nvidia.com/mpc-for-handover
-image : "headers/handover_mpc.gif"
+image : "headers/handover_mpc.webm"
 ---
+
+We use model predictive control to generate fluid human-to-robot handovers, allowing the robot to adapt its motion as the human and object move. The controller combines many objectives to produce responsive, collision-aware reaching behavior.
