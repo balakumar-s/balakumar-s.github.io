@@ -3,7 +3,7 @@ layout: post
 title : "Grasp-MPC: Closed-Loop Visual Grasping via Value-Guided Model Predictive Control"
 date : 2026-01-02
 authors : J. Yamada, A. Murali, A. Mandlekar, C. Eppner, I. Posner, <strong>B. Sundaralingam</strong>
-venue : "2026 IEEE International Conference on Robotics and Automation (ICRA)"
+venue : "IEEE International Conference on Robotics and Automation (ICRA)"
 arxiv : "https://arxiv.org/abs/2509.06201"
 category : research
 website : https://grasp-mpc.github.io/

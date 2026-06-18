@@ -3,7 +3,7 @@ layout: post
 title : "DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning"
 date : 2025-01-01
 authors : H. Huang, <strong>B. Sundaralingam</strong>, A. Mousavian, A. Murali, K. Goldberg, D. Fox
-venue : "8th Annual Conference on Robot Learning (CoRL)"
+venue : "Conference on Robot Learning (CoRL)"
 arxiv : "https://arxiv.org/abs/2410.16727"
 category : research
 website : https://diffusion-seeder.github.io/

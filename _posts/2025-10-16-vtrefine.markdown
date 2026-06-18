@@ -3,7 +3,7 @@ layout: post
 title : "VT-Refine: Learning Bimanual Assembly with Visuo-Tactile Feedback via Simulation Fine-Tuning"
 date : 2025-10-16
 authors : B. Huang, J. Xu, I. Akinola, W. Yang, <strong>B. Sundaralingam</strong>, R. O'Flaherty, D. Fox, X. Wang, A. Mousavian, Y. Chao, Y. Li
-venue : "9th Annual Conference on Robot Learning (CoRL)"
+venue : "Conference on Robot Learning (CoRL)"
 arxiv : "https://arxiv.org/abs/2510.14930"
 category : research
 website : https://binghao-huang.github.io/vt_refine/

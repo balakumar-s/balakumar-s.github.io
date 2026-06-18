@@ -3,11 +3,11 @@ layout: post
 title : "Relaxed-Rigidity Constraints: In-Grasp Manipulation using Purely Kinematic Trajectory Optimization"
 date : 2017-07-01
 authors : <strong>B. Sundaralingam</strong>, T. Hermans
-venue : "Proceedings of Robotics: Science and Systems"
+venue : "Robotics: Science and Systems (RSS)"
 category : research
 video : "https://www.youtube.com/watch?v=Gn-yMRjbmPE"
 website : https://robot-learning.cs.utah.edu/project/in_hand_manipulation
 image : "headers/in_grasp.webm"
 ---
 
-We formulate in-grasp object reposing as a purely kinematic trajectory optimization problem, enabling multi-fingered hands to reposition unknown objects without an object dynamics model. The approach alternates between finger gaiting and object motion to produce feasible dexterous manipulation plans.
+We formulate in-grasp object reposing as a trajectory optimization problem, enabling multi-fingered hands to reposition unknown objects using only kinematics.
