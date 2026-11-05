@@ -1,0 +1,16 @@
+---
+layout: post
+title : "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness for Variational Automation Tasks"
+date : 2026-07-06
+authors : K. Chen, S. Xie, L. Fu, J. Yu, W. Pacini, S. Bajamahal, H. Kim, J. Drake, D. Kim, H. Xue, J. Francis, C. Juette, P. Schaldenbrand, M. Y. Seker, R. Wickramarachchi, U. Yoo, G. Wang, A. Murali, <strong>B. Sundaralingam</strong>, S. S. Sastry, Y. Zhu, L. Fan, S. Huang, K. Goldberg
+venue : "Conference on Robot Learning (CoRL), Spotlight"
+arxiv : "https://arxiv.org/abs/2607.05369"
+category : research
+website : https://graph-robots.github.io/gap/
+code : https://github.com/graph-robots/graph-as-policy
+video : https://graph-robots.github.io/gap/#splashvid
+image : "headers/gap.webm"
+image_poster : "headers/gap.jpg"
+---
+
+GaP uses a multi-agent harness to generate interpretable robot policies as computation graphs, combining perception, planning, and control skills. It refines these graphs through simulation rehearsal and evaluates them on manipulation tasks with varying object poses and geometry.

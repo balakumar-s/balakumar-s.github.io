@@ -1,0 +1,15 @@
+---
+layout: post
+title : "OpenJaws: An Open Hardware UMI Framework with Stereo Localization for Generalist Manipulation"
+date : 2026-10-27
+authors : A. Murali, Y. Oza, K. Chahal, N. Jawale, S. De Vries, H. Rabeti, E. Coumans, <strong>B. Sundaralingam</strong>, S. Birchfield
+venue : "arXiv preprint"
+arxiv : "https://arxiv.org/abs/2610.36598"
+category : research
+website : https://open-jaws.github.io/
+image : "headers/openjaws.webm"
+image_poster : "headers/openjaws.png"
+video : https://open-jaws.github.io/#video
+---
+
+OpenJaws is an open hardware and software framework for collecting robot manipulation demonstrations with a handheld gripper and stereo localization. It introduces UMI-Loc-Bench-v1 for evaluating localization accuracy and demonstrates deployment of learned policies on a real robot.

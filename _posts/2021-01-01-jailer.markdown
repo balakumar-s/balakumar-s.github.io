@@ -5,7 +5,7 @@ date : 2021-01-01
 authors : V. Kumar, D. Hoeller, <strong>B. Sundaralingam</strong>, J. Tremblay, S. Birchfield
 venue : "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
 arxiv : "https://arxiv.org/abs/2011.06332"
-category : research
+category : archive
 video : "https://www.youtube.com/watch?v=6BHoaBqApBo"
 image : "headers/jailer_intro.png"
 ---

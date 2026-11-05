@@ -75,7 +75,7 @@
             <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
               {% assign image_ext = post.image | split: "." | last | downcase %}
               {% if image_ext == "webm" or image_ext == "mp4" %}
-              <video autoplay loop muted playsinline preload="metadata" aria-label="project video" style="width:100%; height:auto; max-width:100%;">
+              <video autoplay loop muted playsinline preload="metadata" {% if post.image_poster %}poster="/{{post.image_poster}}"{% endif %} aria-label="project video" style="width:100%; height:auto; max-width:100%;">
                 <source src="/{{post.image}}" type="video/{{image_ext}}">
               </video>
               {% else %}
